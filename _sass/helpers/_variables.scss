@@ -1,0 +1,29 @@
+@import "colors";
+
+// Breakpoints & Grid System
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1400px;
+
+$screen-xs-max: $screen-sm-min - 1;
+$screen-sm-max: $screen-md-min - 1;
+$screen-md-max: $screen-lg-min - 1;
+
+$gutter-width: 0px;
+$half-gutter: $gutter-width / 2;
+
+// Navbar
+
+$navbar-height: 60px;
+
+// Specifics
+
+$navlogo-width-lg: 280px;
+$nav-padding-lg: 20px;
+$navlogo-width-md: 220px;
+$nav-padding-md: 15px;
+
+$grid-padding-lg: 30px;
+$grid-padding-md: 20px;
+$grid-padding-xs: 12px;

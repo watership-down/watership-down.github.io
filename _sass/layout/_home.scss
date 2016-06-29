@@ -1,0 +1,131 @@
+.home {
+
+	margin-bottom: 100px;
+
+	.welcome {
+		font-family: $font-ink;
+		color: $black;
+		font-weight: bold;
+		line-height: 1;
+
+		span {
+			display: block;
+			letter-spacing: -5px;
+			margin-top: 0px;
+
+			&:first-child { font-size: 100px; display: none; }
+			&:nth-child(2) { font-size: 54px; opacity: 0.5; }
+			&:nth-child(3) { font-size: 72px; text-transform: uppercase; }
+			&:nth-child(4) { font-size: 110px; text-transform: uppercase; display: none; }
+		}
+	}
+
+	a.row {
+		display: block;
+		color: $black;
+	}
+
+	
+
+
+	.text {
+		font-family: $font-vol;
+		font-size: 32px;
+		line-height: 1.1;
+		font-style: italic;
+		//float: left;
+		margin-top: 50px;
+
+		&:after {
+			content: "";
+			width: 0; 
+			height: 0; 
+			border-top: 12px solid transparent;
+			border-bottom: 12px solid transparent;			
+			border-left: 20px solid $black;
+			font-size: 0;
+			box-sizing: content-box;
+			position: relative;
+			bottom: 13px;
+			left: 8px;
+			opacity: 0.5;
+			transition: 0.1s linear all;
+		}
+	}
+
+	a.row:hover .text:after {
+		opacity: 1;
+	}
+
+	.row.books .text {
+		width: 400px;
+	}
+
+	.row.about .text {
+		width: 500px;
+		float: right;
+	}
+
+	.row.contact .text {
+		width: 500px;
+		margin: 0 auto;
+
+		text-align: center;
+	}
+
+	.email {
+		font-family: $font-ink;
+		font-size: 40px;
+		text-align: center;
+		font-weight: bold;
+		line-height: 1;
+	}
+
+	.imagery {
+		height: 300px;
+		width: 400px;
+		position: relative;
+		//float: left;
+
+		img.wd {
+			position: absolute;
+			top: 30px;
+			left: 150px;
+			width: 200px;
+			@include shadow(4);
+			transform: rotate(20deg);
+		}
+
+		img.sh {
+			position: absolute;
+			top: 30px;
+			left: 50px;
+			width: 160px;
+			@include shadow(3);
+			transform: rotate(10deg);
+		}
+
+		img.ab1 {
+			width: 300px;
+			padding: 15px 15px 40px;
+			background: white;
+			transform: rotate(-8deg);
+			@include shadow(3);
+			margin-top: -100px;
+		}
+
+	}
+
+	.row.contact .imagery {
+
+		margin: -250px auto 0;
+
+		img.mail {
+			width: 400px;
+			opacity: 0.1;
+			margin: 0 auto;
+
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+article.news-post {
+	a.title {
+		font-family: $font-title;
+		font-size: 32px;
+		margin-bottom: 20px;
+		color: $black;
+	}
+
+	p {
+		font-family: $font-serif;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+}

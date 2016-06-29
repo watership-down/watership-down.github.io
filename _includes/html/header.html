@@ -1,0 +1,20 @@
+<nav class="site-nav">
+	<a href="/" class="logo {% if page.title == 'index' %}active{% endif %}">
+		<img src="/images/crest.png" />
+		<div class="crest"></div>
+		<div class="title">WATERSHIP DOWN<br>ENTERPRISES</div>
+	</a>
+	<div class="menu-btn"></div>
+	<div class="links">
+		{% assign sorted_pages = site.pages | sort:"order" %}
+		{% for some_page in sorted_pages %}
+			{% if some_page.title and some_page.order %}
+				<div class="link">
+					<a class="{% if some_page == page %}active{% endif %}" href="{{ some_page.url | prepend: site.baseurl }}">{{ some_page.title }}</a>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<div class="darken">
+				</div>
+</nav>

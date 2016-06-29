@@ -1,0 +1,235 @@
+nav.site-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: $navlogo-width-md;
+	background: $green;
+	text-align: center;
+	font-size: 18px;
+	font-family: $font-vol;
+	color: white;
+	transition: 0.1s linear all;
+
+	.logo {
+		padding: $nav-padding-md;
+		font-size: 1.1em;
+		line-height: 1;
+
+		img {
+			height: $navlogo-width-md - (2 * $nav-padding-md);
+			text-align: center;
+		}
+
+		.title {
+			margin-top: $nav-padding-md / 2;
+		}
+	}
+
+	.link > a {
+		margin-top: $nav-padding-md;
+		font-size: 1em;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		padding: $nav-padding-md 0;
+		background: rgba(255,255,255,0.1);		
+	}
+
+	.logo, .link > a {
+		display: block;
+		color: white;
+		
+
+		&:hover, &:active {
+			background: rgba(255,255,255,0.2);
+		}
+	}
+
+	.link > a {
+
+		&.active, &.active:hover, &.active:active {
+			background: #ddd;
+			background: url('/images/paper_fibers.png');
+			color: darken($green, 10%);
+		}		
+	}
+
+	.logo .crest {
+		width: 100%;
+		height: 0;
+		//padding: 50%;
+		//background: rgba(255,255,255,0.5);
+		//border-radius: 50%
+		background: url('/images/crest.png');
+	}
+
+	.logo.active .crest {
+		//background: rgba(0,0,0,0.2);
+	}
+
+	.menu-btn {
+		display: none;
+	}
+}
+
+@include bp(lg) {
+	nav.site-nav {
+		width: $navlogo-width-lg;
+		font-size: 20px;
+		line-height: 0.9;
+		.logo {
+			padding: $nav-padding-lg;
+			font-size: 1.3em;
+			img {
+				height: $navlogo-width-lg - (2 * $nav-padding-lg);
+			}
+			.title {
+				margin-top: $nav-padding-lg / 2;
+			}
+		}
+		.link > a {
+			margin-top: $nav-padding-lg;
+			padding: $nav-padding-lg 0;	
+		}
+	}
+}
+
+@include bp(xs,only) {
+	nav.site-nav {
+		bottom: auto;
+		right: 0;
+		width: 100%;
+		height: $navbar-height;		
+
+		.logo {
+			padding: 0 $grid-padding-xs*2;
+			background: $green;
+			@include shadow(2);
+
+			.title {
+				text-align: left;
+				height: $navbar-height;
+				display: table-cell;
+				vertical-align: middle;
+				margin: 0;
+				padding-top: 5px;
+			}
+			.crest {
+				display: none;
+			}
+
+			&:hover, &:active, &.active, &.active:hover, &.active:active {
+				background: $green;
+				color: white;
+			}
+		}
+
+		.links {
+			z-index: -1;
+			position: absolute;
+			bottom: 10px;
+			left: 0;
+			right: 0;
+			@include shadow(2);
+			padding: (($grid-padding-xs * 2) - 5px);
+			background: darken($green, 10%);
+			transform: translateY(0px);
+			transition: 0.2s ease-out transform;
+
+			.link {
+				width: 50%;
+				float: left;
+				padding: 0 5px;
+
+				& > a {
+					margin: 5px 0;
+					font-size: 0.9em;
+				}
+			}
+
+			&.open {
+				transform: translateY(172px);
+			}
+		}
+
+
+		.menu-btn {
+			display: block;
+		}
+
+		.menu-btn:before, .menu-btn:after {
+			display: block;
+			position: absolute;
+			top: 50%;
+			right: $grid-padding-xs*2;
+			font-size: 1em;
+			line-height: 1;
+			margin-top: -19px;
+			padding: 10px 10px 8px;
+			background: darken($green, 10%);
+			border: 1px solid rgba(0,0,0,.1);
+			border-radius: 4px;
+			width: 70px;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		.menu-btn:before {
+			content: 'Menu';
+			opacity: 1;
+			transition: 0.2s linear opacity;
+		}
+
+		.menu-btn:after {
+			content: 'Close';
+			opacity: 0;
+			transition: 0.2s linear opacity;
+		}
+
+		.menu-btn.open:before {
+			opacity: 0;
+		}
+
+		.menu-btn.open:after {
+			opacity: 1;
+		}
+
+		.darken {
+			@include bp(sm) {
+				display: none;
+				height: 0;
+				width: 0;
+			}
+
+			position: fixed;
+			top: $navbar-height;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(0,0,0,0.5);
+			z-index: -2;
+			display: none;
+		}
+
+		
+	}
+
+
+}
+
+
+
+nav.site-nav.fake {
+	z-index: 3;
+	opacity: 0;
+
+	* {
+		opacity: 0;
+	}
+
+	*.active {
+		opacity: 1;
+	}
+}
+
+

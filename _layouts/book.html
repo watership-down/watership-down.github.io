@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 col-md-5">
+			<div class="img-wrapper">
+				<img src="/images/{{ page.slug }}-cover.jpg" />
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-7">
+			<h1>{{ page.title }}</h1>
+			<p>{{ page.content }}</p>
+			<a href="#" class="btn">Purchase</a>
+		</div>
+		<div class="col-xs-12">
+			<h2>What critics have said:</h2>
+			<div class="reviews" dataa-masonry='{ "itemSelector": ".review" }'>
+			{% for review in page.reviews %}
+				<div class="review">
+					<div class="quote">
+						{{ review.quote }}
+					</div>
+					<div class="quotee">
+						{{ review.quotee }}
+					</div>
+				</div>
+			{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

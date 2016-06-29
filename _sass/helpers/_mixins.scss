@@ -1,0 +1,132 @@
+@import 'mixins/breakpoints';
+@import 'mixins/shadows';
+
+// @mixin banner-image($url) {
+	
+// }
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+$image-path: '../img' !default;
+$fallback-extension: 'png' !default;
+$retina-suffix: '@2x';
+@mixin background-image($name, $size:false){
+	background-image: url(#{$image-path}/#{$name}.svg);
+	@if($size){
+		background-size: $size;
+	}
+	.no-svg &{
+		background-image: url(#{$image-path}/#{$name}.#{$fallback-extension});
+
+		@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+		  background-image: url(#{$image-path}/#{$name}#{$retina-suffix}.#{$fallback-extension});
+		}
+	}
+}
+
+@mixin keyframes($animation-name) {
+	@-webkit-keyframes #{$animation-name} {
+		@content;
+	}
+	@-moz-keyframes #{$animation-name} {
+		@content;
+	}  
+	@-ms-keyframes #{$animation-name} {
+		@content;
+	}
+	@-o-keyframes #{$animation-name} {
+		@content;
+	}  
+	@keyframes #{$animation-name} {
+		@content;
+	}
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+	content: " ";
+	display: table;
+  }
+  &:after {
+	clear: both;
+  }
+}
+
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+
+// --------------------- Transforms ------------------------- //
+
+// generic transform
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+		 -o-transform: $transforms;
+		-ms-transform: $transforms;
+	-webkit-transform: $transforms;
+		  transform: $transforms;
+}
+// rotate
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// scale
+@mixin scale($scale) {
+	 @include transform(scale($scale));
+} 
+// translate
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+// skew
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+	moz-transform-origin: $origin;
+		 -o-transform-origin: $origin;
+		-ms-transform-origin: $origin;
+	-webkit-transform-origin: $origin;
+		  transform-origin: $origin;
+}

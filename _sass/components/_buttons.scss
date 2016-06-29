@@ -1,0 +1,16 @@
+
+// --------------- Pagination ------------------ //
+
+a.pagination-btn {
+	background: $darkblue;
+	color: white;
+	padding: 5px;
+}
+
+a.pagination-btn.next {
+	float: right;
+}
+
+a.pagination-btn.prev {
+	float: left;
+}

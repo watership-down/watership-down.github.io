@@ -1,0 +1,56 @@
+$breakpoints: (
+	xs: ( min: 0, max: $screen-xs-max ),
+	sm: ( min: $screen-sm-min, max: $screen-sm-max ),
+	md: ( min: $screen-md-min, max: $screen-md-max ),
+	lg: ( min: $screen-lg-min, max: 10000px )
+);
+
+
+@mixin bp($screen, $query: 'min') {
+	
+	@if map-has-key($breakpoints, $screen) {
+
+		@if $query == 'min' {
+			@media (min-width: #{map-get(map-get($breakpoints, $screen), 'min')}) {
+				@content;
+			}
+		}
+
+		@else if $query == 'max' {
+			@media (max-width: #{map-get(map-get($breakpoints, $screen), 'max')}) {
+				@content;
+			}
+		}
+
+		@else if $query == 'only' {
+			@media (min-width: #{map-get(map-get($breakpoints, $screen), 'min')}) and (max-width: #{map-get(map-get($breakpoints, $screen), 'max')}) {
+				@content;
+			}
+		}
+
+		@else {
+			@warn "'#{$query}' is not a valid value for media query";
+		}
+
+	}
+
+	@else {
+		@warn "'#{$screen}' is not a valid value for screen size";
+	}
+
+}
+
+@mixin bp-each($prop, $xs, $sm, $md, $lg) {
+	@include bp(xs, only) {
+		#{$prop}: $xs;
+	}
+	@include bp(sm, only) {
+		#{$prop}: $sm;
+	}
+	@include bp(md, only) {
+		#{$prop}: $md;
+	}
+	@include bp(lg, only) {
+		#{$prop}: $lg;
+	}
+}

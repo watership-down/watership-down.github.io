@@ -1,0 +1,67 @@
+@import "normalize";
+@import "fonts";
+
+// ------- base stuff
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0; 
+	padding: 0;
+	font-size: 100%;
+}
+
+body {
+	background-color: $background-color;
+	color: $text-color;
+	font-family: $font-sans;
+	font-size: 14px;
+	background: url('/images/paper_fibers.png');
+}
+
+h1, h2, h3, h4 {
+	padding: 0;
+	margin: 0 0 10px;
+	color: $header-color;
+}
+
+h4 {
+	margin: 0 0 5px;
+}
+
+a {
+	text-decoration: none;
+	color: $link-color;
+}
+
+a:hover,
+a:active,
+a:visited {
+	color: $link-color;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+// clearfix
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}

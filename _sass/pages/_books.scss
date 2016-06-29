@@ -1,0 +1,45 @@
+section.book {
+	padding: 60px 30px;
+
+	&:hover {
+		background: rgba(0,0,0,0.1);
+	}
+
+	img.cover {
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+.each-book {
+	section {
+		margin-top: 60px;
+	}
+
+	section.cover {
+		img {
+			width: 100%;
+		}
+	}
+
+	section.basic-info {
+
+		.title {
+			font-family: $font-title;
+			font-size: 50px;
+			line-height: 1;
+			margin-bottom: 40px;
+			display: block;
+		}
+
+		.desc {
+			font-family: $font-sans;
+			font-size: 20px;
+
+			p {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

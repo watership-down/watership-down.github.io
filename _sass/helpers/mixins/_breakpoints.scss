@@ -5,7 +5,7 @@ $breakpoints: (
 	lg: ( min: $screen-lg-min, max: 10000px )
 );
 
-
+// screen must be xs, sm, md, lg, or a pixel value, eg: 400px
 @mixin bp($screen, $query: 'min') {
 	
 	@if map-has-key($breakpoints, $screen) {
@@ -33,9 +33,25 @@ $breakpoints: (
 		}
 
 	}
-
+	
+	// let you do custom breakpoints from pixel value
 	@else {
-		@warn "'#{$screen}' is not a valid value for screen size";
+
+		@if $query == 'min' {
+			@media (min-width: $screen) {
+				@content;
+			}
+		}
+
+		@else if $query == 'max' {
+			@media (max-width: $screen) {
+				@content;
+			}
+		}
+
+		@else {
+			@warn "'#{$query}' is not a valid value for media query";
+		}
 	}
 
 }
@@ -54,3 +70,5 @@ $breakpoints: (
 		#{$prop}: $lg;
 	}
 }
+
+// HI FREDDIE

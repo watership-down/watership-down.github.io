@@ -5,15 +5,47 @@ layout: default
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-md-5">
+			{% if page.slug == 'wd' %}
+			<div class="slides">
+				<div class="img-wrapper slides">
+					<div class="images">
+						<img class="active" src="/images/{{ page.slug }}-cover.jpg" />
+						<img class="longer" src="/images/{{ page.slug }}-cover-2.jpg" />
+					</div>
+					<div class="info">
+						<div class="text active">Oneworld illustrated hardback</div>
+						<div class="text">Penguin paperback</div>
+						<div class="prev">&#x25C0</div>
+						<div class="next">&#x25B6</div>
+					</div>
+				</div>
+			</div>
+			{% else %}
 			<div class="img-wrapper">
 				<img src="/images/{{ page.slug }}-cover.jpg" />
 			</div>
+			{% endif %}
 		</div>
 		<div class="col-xs-12 col-md-7">
 			<h1>{{ page.title }}</h1>
 			<p>{{ page.content }}</p>
-			<a href="#" class="btn">Purchase</a>
+			<div class="buy">
+				<select>
+					{% assign links = page.links | sort %}
+					{% for loc in links %}
+					<option value="{{ loc[0] }}">{{ loc[0] | upcase }}</option>
+					{% endfor %}
+				</select>
+				{% for loc in page.links %}
+				<span class="{{ loc[0] }}">
+					{% for edition in loc[1] %}
+					<a href="{{ edition.link }}">{{ edition.label }}</a>
+					{% endfor %}
+				</span>
+				{% endfor %}
+			</div>
 		</div>
+		{% if page.reviews %}
 		<div class="col-xs-12">
 			<h2>What critics have said:</h2>
 			<div class="reviews" dataa-masonry='{ "itemSelector": ".review" }'>
@@ -29,5 +61,6 @@ layout: default
 			{% endfor %}
 			</div>
 		</div>
+		{% endif %}
 	</div>
 </div>

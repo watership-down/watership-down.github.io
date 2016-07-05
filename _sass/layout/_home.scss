@@ -93,7 +93,7 @@
 
 			&:before {
 				content: '';
-				background-image: url('/images/mail-icon.svg');
+				background-image: url('/images/mail-icon.png');
 				background-size: contain;
 				background-position: center center;
 				background-repeat: no-repeat;
@@ -127,6 +127,11 @@
 		height: 360px;
 		width: 360px;
 		position: relative;
+		@include bp(xs, only) {
+			width: 272px;
+			height: 272px;
+			margin: 0 auto;
+		}
 
 		img.wd {
 			position: absolute;
@@ -156,13 +161,11 @@
 			transform: rotate(-8deg);
 			@include shadow(3);
 			//margin-top: -100px;
-		}
+		}		
+	}
 
-		@include bp(xs, only) {
-			width: 272px;
-			height: 272px;
-			margin: 0 auto;
-		}
+	.books .imagery {
+		@include bp-each(height, 240px, 320px, 360px, 360px);
 	}
 
 }

@@ -4,6 +4,11 @@
   padding-left: $half-gutter;
   padding-right: $half-gutter;
 }
+@include bp(xs, only) {
+  .container {
+    max-width: 420px;
+  }
+}
 @media (min-width: $screen-sm-min) {
   .container {
 	width: $screen-sm-min;

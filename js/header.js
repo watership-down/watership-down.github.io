@@ -10,6 +10,8 @@ $(function() {
 			$('.darken').fadeIn(200).addClass('open');;
 		}
 	});
-});
 
-console.log('foo');
+	// $.getJSON('http://ipinfo.io', function(data){
+	//   console.log(data)
+	// });
+});

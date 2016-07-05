@@ -15,8 +15,11 @@ order: 2
 						</h1>
 					</a>
 					{{ post.date | date: "%b %-d, %Y" }}
+					{% comment %}
 					<p>{{ post.excerpt }}</p>
 					<a href="{{ post.url | prepend: site.baseurl }}" class="more-info">+ Read more</a>
+					{% endcomment %}
+					<p>{{ post.content }}</p>
 				</article>
 			{% endfor %}
 		</div>

@@ -106,6 +106,8 @@ nav.site-nav {
 			background: $green;
 			@include shadow(2);
 
+			$show-logo: 360px;
+
 			.title {
 				text-align: left;
 				height: $navbar-height;
@@ -113,9 +115,24 @@ nav.site-nav {
 				vertical-align: middle;
 				margin: 0;
 				padding-top: 5px;
+				@include bp($show-logo) {
+					padding-left: 43px;
+				}
 			}
 			.crest {
 				display: none;
+			}
+
+			img {
+				display: none;
+				@include bp($show-logo) {
+					display: block;
+					height: $navbar-height - 20px;
+					width: auto;
+					position: absolute;
+					top: 10px;
+					left: $grid-padding-xs*2;
+				}
 			}
 
 			&:hover, &:active, &.active, &.active:hover, &.active:active {

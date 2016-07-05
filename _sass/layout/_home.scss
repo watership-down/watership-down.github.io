@@ -1,7 +1,16 @@
 .home {
 
-	margin-bottom: 100px;
+	//margin-bottom: 100px;
+	@include bp-each(font-size, 14px, 18px, 20px, 20px);
 
+	.welcome, .text, .imagery {
+		@include bp-each(margin, $grid-padding-xs, $grid-padding-md, $grid-padding-md, $grid-padding-lg);
+		float: left;
+		@include bp(xs, only) {
+			float: none;
+		}
+	}
+	
 	.welcome {
 		font-family: $font-ink;
 		color: $black;
@@ -12,119 +21,147 @@
 			display: block;
 			letter-spacing: -5px;
 			margin-top: 0px;
+			@include bp(xs, only) {
+				letter-spacing: -2px;
+				margin-left: -2px;
+				text-align: center;
+			}
 
-			&:first-child { font-size: 100px; display: none; }
-			&:nth-child(2) { font-size: 54px; opacity: 0.5; }
-			&:nth-child(3) { font-size: 72px; text-transform: uppercase; }
-			&:nth-child(4) { font-size: 110px; text-transform: uppercase; display: none; }
+			&:nth-child(1) { 
+				font-size: 2.7em;
+				@include bp-each(font-size, 24px, 38px, 48px, 54px);
+				opacity: 0.5;
+			}
+			&:nth-child(2) {
+				font-size: 3.6em;
+				@include bp-each(font-size, 25px, 42px, 62px, 72px);
+				text-transform: uppercase;
+			}
 		}
 	}
 
-	a.row {
+	a.goto {
 		display: block;
 		color: $black;
+		float: clear;
+		@extend .cf;
 	}
 
-	
-
+	.goto.about, .goto.contact {
+		@include bp-each(transform, none, none, translateY(-100px), translateY(-100px));
+	}
 
 	.text {
 		font-family: $font-vol;
-		font-size: 32px;
+		@include bp-each(font-size, 22px, 24px, 26px, 32px);
+		@include bp-each(width, 272px, 360px, 270px, 400px);
+		@include bp-each(margin-top, 0, 0, 150px, 150px);
 		line-height: 1.1;
 		font-style: italic;
-		//float: left;
 		margin-top: 50px;
+		@include bp(xs, only) {
+			text-align: center;
+			width: 272px;
+			margin: 0 auto;
+		}		
 
 		&:after {
-			content: "";
-			width: 0; 
-			height: 0; 
-			border-top: 12px solid transparent;
-			border-bottom: 12px solid transparent;			
-			border-left: 20px solid $black;
-			font-size: 0;
-			box-sizing: content-box;
+			content: "\25b6";
+			font-style: normal;
 			position: relative;
-			bottom: 13px;
-			left: 8px;
+			top: 0.1em;
 			opacity: 0.5;
 			transition: 0.1s linear all;
+			@include bp(xs, only) {
+				display: none;
+			}
+		}
+
+		&.email {
+			@include bp-each(width, 272px, 100%, 660px, 780px);
+			text-align: center;
+			margin-top: 0;
+			padding: 2em 0;
+			position: relative;
+			@include bp(sm, only) {
+				text-align: left;
+			}
+
+			&:after {
+				display: none;
+			}
+
+			&:before {
+				content: '';
+				background-image: url('/images/mail-icon.svg');
+				background-size: contain;
+				background-position: center center;
+				background-repeat: no-repeat;
+				position: absolute;
+				top: 0;
+				height: 100%;
+				left: 0;
+				right: 0;
+				opacity: 0.1;
+				@include bp(sm, only) {
+					background-position: left center;
+				}
+
+			}
+
+			& > div {
+				font-family: $font-ink;
+				font-size: 1em;
+				font-style: normal;
+
+			}
+
 		}
 	}
 
-	a.row:hover .text:after {
+	a.goto:hover .text:after {
 		opacity: 1;
 	}
 
-	.row.books .text {
-		width: 400px;
-	}
-
-	.row.about .text {
-		width: 500px;
-		float: right;
-	}
-
-	.row.contact .text {
-		width: 500px;
-		margin: 0 auto;
-
-		text-align: center;
-	}
-
-	.email {
-		font-family: $font-ink;
-		font-size: 40px;
-		text-align: center;
-		font-weight: bold;
-		line-height: 1;
-	}
-
 	.imagery {
-		height: 300px;
-		width: 400px;
+		height: 360px;
+		width: 360px;
 		position: relative;
-		//float: left;
 
 		img.wd {
 			position: absolute;
-			top: 30px;
-			left: 150px;
-			width: 200px;
+			top: 8%;
+			left: 32%;
+			width: 55%;
 			@include shadow(4);
 			transform: rotate(20deg);
 		}
 
 		img.sh {
-			position: absolute;
-			top: 30px;
-			left: 50px;
-			width: 160px;
+			position: relative;
+			top: 8%;
+			left: 5%;
+			width: 44%;
 			@include shadow(3);
 			transform: rotate(10deg);
 		}
 
 		img.ab1 {
-			width: 300px;
-			padding: 15px 15px 40px;
+			position: absolute;
+			width: 83%;
+			left: 8%;
+			top: 5%;
+			padding: 4% 4% 10%;
 			background: white;
 			transform: rotate(-8deg);
 			@include shadow(3);
-			margin-top: -100px;
+			//margin-top: -100px;
 		}
 
-	}
-
-	.row.contact .imagery {
-
-		margin: -250px auto 0;
-
-		img.mail {
-			width: 400px;
-			opacity: 0.1;
+		@include bp(xs, only) {
+			width: 272px;
+			height: 272px;
 			margin: 0 auto;
-
 		}
 	}
 

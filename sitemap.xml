@@ -16,45 +16,34 @@ layout: null
 			<priority>0.5</priority>
 		</url>
 	{% endfor %}
-	<div class="container-fluid">
-		{% assign books = site.book | sort:"order" %}	
-		{% for book in books %}
-			<url>
-				<loc>{{ site.url }}{{ book.url }}</loc>
-				<changefreq>{{ monthly }}</changefreq>
-				<priority>0.8</priority>
-			</url>
-		{% endfor %}
-	</div>
-	{% for book in site.book %}
-		{% if book.sitemap != null and book.sitemap != empty %}
-			<url>
-				<loc>{{ site.url }}{{ book.url }}</loc>
-				<lastmod>{{ book.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-				<changefreq>{{ book.sitemap.changefreq }}</changefreq>
-				<priority>{{ book.sitemap.priority }}</priority>
-			</url>
-		{% endif %}
+
+	{% assign books = site.book | sort:"order" %}	
+	{% for book in books %}
+		<url>
+			<loc>{{ site.url }}{{ book.url }}</loc>
+			<changefreq>monthly</changefreq>
+			<priority>0.8</priority>
+		</url>
 	{% endfor %}
 
 	<url>
-		<loc>{{ site.url }}books/</loc>
-		<changefreq>{{ monthly }}</changefreq>
+		<loc>{{ site.url }}/books/</loc>
+		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>{{ site.url }}news/</loc>
-		<changefreq>{{ monthly }}</changefreq>
+		<loc>{{ site.url }}/news/</loc>
+		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>{{ site.url }}about/</loc>
-		<changefreq>{{ monthly }}</changefreq>
+		<loc>{{ site.url }}/about/</loc>
+		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>{{ site.url }}contact/</loc>
-		<changefreq>{{ monthly }}</changefreq>
+		<loc>{{ site.url }}/contact/</loc>
+		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 </urlset>

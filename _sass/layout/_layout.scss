@@ -40,6 +40,7 @@ main {
 
 	.img-wrapper {
 		text-align: center;
+		display: block;
 
 		img, div.info {
 			width: 100%;
@@ -99,14 +100,64 @@ main {
 	}
 
 	.book {
+		text-align: center;
 		@include bp(xs, only) {
 			margin-bottom: 2em;
+		}
+
+		div[class*="col-"] {
+			@include bp(sm, max) {
+				float: none;
+				margin: 0 auto;
+				max-width: 500px;
+			}
+
+			&:nth-child(2n+1) {
+				clear: left;
+			}
+		}
+
+		h2 {
+			margin-top: 1em;
+		}
+
+		.img-wrapper {
+			display: none;
+		}
+
+		.book-cover {
+			background-image: url('');
+			background-size: contain;
+			background-position: center center;
+			background-repeat: no-repeat;
+			padding: 40% 50%;
 		}
 	}
 
 	.contact {
-		h1 {
-			margin-top: 0.25em;
+		& > a {
+			$contact-height: 2em;
+			color: $black;
+			display: block;
+			line-height: $contact-height;
+			margin-bottom: 0.5em;
+
+			img {
+				height: $contact-height;
+				opacity: 0.4;
+				margin-right: 0.6em;
+				filter: grayscale(100%);
+				-webkit-filter: grayscale(100%);
+				transition: 0.1s linear all;
+			}
+
+			&:hover {
+				img {
+					opacity: 1;
+					filter: grayscale(0%);
+					-webkit-filter: grayscale(0%);
+				}
+			}
 		}
 	}
 

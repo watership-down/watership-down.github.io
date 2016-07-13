@@ -9,8 +9,8 @@ layout: default
 			<div class="slides">
 				<div class="img-wrapper slides">
 					<div class="images">
-						<img class="active" src="/images/{{ page.slug }}-cover.jpg" />
-						<img class="longer" src="/images/{{ page.slug }}-cover-2.jpg" />
+						<img class="active" src="/images/{{ page.slug }}-cover.jpg" alt="Book cover" />
+						<img class="longer" src="/images/{{ page.slug }}-cover-2.jpg" alt="Book cover" />
 					</div>
 					<div class="info">
 						<div class="text active">Oneworld illustrated hardback</div>
@@ -22,7 +22,7 @@ layout: default
 			</div>
 			{% else %}
 			<div class="img-wrapper">
-				<img src="/images/{{ page.slug }}-cover.jpg" />
+				<img src="/images/{{ page.slug }}-cover.jpg" alt="Book Cover"/>
 			</div>
 			{% endif %}
 		</div>

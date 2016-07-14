@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
     The official website for Watership Down Enterprises,
     and the publications of Richard Adams.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.watership-down.com" # the base hostname & protocol for your site
+url: "https://watership-down.com" # the base hostname & protocol for your site
 twitter_username: Watership_Down_
 facebook_username: Watership Down Enterprises
 facebook_url: Watership-Down-Enterprises-1045168595532268

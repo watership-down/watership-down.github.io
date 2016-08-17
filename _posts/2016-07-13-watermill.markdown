@@ -7,4 +7,4 @@ A critically acclaimed stage version of Watership Down with music, adapted by Ro
 
 [Check out the production website for details, tickets, and more](https://www.watermill.org.uk/watership_down)
 
-![Richard Adams with the cast of Watership Down](/images/watermill.jpg)
+![Richard Adams with the cast of Watership Down](/images/posts/watermill.jpg)

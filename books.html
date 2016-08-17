@@ -11,12 +11,19 @@ order: 1
 	{% for book in books %}
 		
 			<div class="col-sm-12 col-md-6">
-				<div class="book-cover" style="background-image:url('/images/{{ book.slug }}-cover.jpg')">
-				</div>
-				<h2>{{ book.title }}</h2>
+				<a href="{{ book.url }}" class="more-info">
+					<div class="book-cover" style="background-image:url('/images/covers/{{ book.slug }}-cover.jpg')">
+					</div>
+				</a>
+
+				<a href="{{ book.url }}" class="more-info">
+					<h2>{{ book.title }}</h2>
+				</a>
+
 				<p>
 					{{ book.short }}
 				</p>
+				
 				<a href="{{ book.url }}" class="more-info">
 					+ More information
 				</a>

@@ -9,20 +9,20 @@ layout: default
 			<div class="slides">
 				<div class="img-wrapper slides">
 					<div class="images">
-						<img class="active" src="/images/{{ page.slug }}-cover.jpg" alt="Book cover" />
-						<img class="longer" src="/images/{{ page.slug }}-cover-2.jpg" alt="Book cover" />
+						<img class="active" src="/images/covers/{{ page.slug }}-cover.jpg" alt="Book cover" />
+						<img class="longer" src="/images/covers/{{ page.slug }}-cover-2.jpg" alt="Book cover" />
 					</div>
 					<div class="info">
 						<div class="text active">Oneworld illustrated hardback</div>
 						<div class="text">Penguin paperback</div>
-						<div class="prev">&#x25C0</div>
-						<div class="next">&#x25B6</div>
+						<div class="prev">&#x25C0;</div>
+						<div class="next">&#x25B6;</div>
 					</div>
 				</div>
 			</div>
 			{% else %}
 			<div class="img-wrapper">
-				<img src="/images/{{ page.slug }}-cover.jpg" alt="Book Cover"/>
+				<img src="/images/covers/{{ page.slug }}-cover.jpg" alt="Book Cover"/>
 			</div>
 			{% endif %}
 		</div>
@@ -39,7 +39,7 @@ layout: default
 				{% for loc in page.links %}
 				<span class="{{ loc[0] }}">
 					{% for edition in loc[1] %}
-					<a href="{{ edition.link }}">{{ edition.label }}</a>
+					<a href="{{ edition.link }}" target="_blank">{{ edition.label }}</a>
 					{% endfor %}
 				</span>
 				{% endfor %}

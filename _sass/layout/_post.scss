@@ -135,13 +135,13 @@ article.post-page {
 			height: 2px;
 			bottom: 0;
 			background: $link-color;
-			transform: translateY(0);
+			@include transform(translateY(0));
 			transition: 0.2s ease-in-out all;
 			opacity: 0;
 		}
 
 		a:hover:before {
-			transform: translateY(-2px);
+			@include transform(translateY(-2px));
 			opacity: 1;
 		}
 
@@ -190,7 +190,7 @@ section.related-posts {
 
 		&:hover {
 			@include shadow(3);
-			transform: scale(1.05,1.05);
+			@include transform(scale(1.05,1.05));
 		}
 
 

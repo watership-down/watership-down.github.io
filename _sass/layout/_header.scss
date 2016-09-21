@@ -150,8 +150,8 @@ nav.site-nav {
 			@include shadow(2);
 			padding: (($grid-padding-xs * 2) - 5px);
 			background: darken($green, 10%);
-			transform: translateY(0px);
-			transition: 0.2s ease-out transform;
+			@include transform(translateY(0px));
+			transition: 0.2s ease-out all;
 
 			.link {
 				width: 50%;
@@ -165,7 +165,7 @@ nav.site-nav {
 			}
 
 			&.open {
-				transform: translateY(172px);
+				@include transform(translateY(172px));
 			}
 		}
 

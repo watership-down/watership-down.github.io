@@ -48,7 +48,9 @@
 	}
 
 	.goto.about, .goto.contact {
-		@include bp-each(transform, none, none, translateY(-100px), translateY(-100px));
+		@include bp(md, min) {
+			@include transform(translateY(-100px));
+		}
 	}
 
 	.text {
@@ -139,7 +141,7 @@
 			left: 32%;
 			width: 55%;
 			@include shadow(4);
-			transform: rotate(20deg);
+			@include transform(rotate(20deg));
 		}
 
 		img.sh {
@@ -148,7 +150,7 @@
 			left: 5%;
 			width: 44%;
 			@include shadow(3);
-			transform: rotate(10deg);
+			@include transform(rotate(10deg));
 		}
 
 		img.ab1 {
@@ -158,7 +160,7 @@
 			top: 5%;
 			padding: 4% 4% 10%;
 			background: white;
-			transform: rotate(-8deg);
+			@include transform(rotate(-8deg));
 			@include shadow(3);
 			//margin-top: -100px;
 		}		

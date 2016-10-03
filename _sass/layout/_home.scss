@@ -1,11 +1,12 @@
 .home {
-
-	//margin-bottom: 100px;
 	@include bp-each(font-size, 14px, 18px, 20px, 20px);
 
-	.welcome, .text, .imagery {
-		@include bp-each(margin, $grid-padding-xs, $grid-padding-md, $grid-padding-md, $grid-padding-lg);
+	.welcome,
+	.text,
+	.imagery {
 		float: left;
+
+		//@include bp-each(margin, $grid-padding-xs, $grid-padding-md, $grid-padding-md, $grid-padding-lg);
 		@include bp(xs, only) {
 			float: none;
 		}
@@ -21,6 +22,7 @@
 			display: block;
 			letter-spacing: -5px;
 			margin-top: 0px;
+
 			@include bp(xs, only) {
 				letter-spacing: -2px;
 				margin-left: -2px;
@@ -29,62 +31,83 @@
 
 			&:nth-child(1) { 
 				font-size: 2.7em;
-				@include bp-each(font-size, 24px, 38px, 48px, 54px);
 				opacity: 0.5;
+
+				@include bp-each(font-size, 24px, 38px, 48px, 54px);
 			}
+
 			&:nth-child(2) {
 				font-size: 3.6em;
-				@include bp-each(font-size, 25px, 42px, 62px, 72px);
 				text-transform: uppercase;
+
+				@include bp-each(font-size, 25px, 42px, 62px, 72px);
 			}
 		}
 	}
 
-	a.goto {
-		display: block;
-		color: $black;
-		float: clear;
+	div.goto {
+		display: table;
+		width: 100%;
+		max-width: 1000px;
+		margin: 50px auto;
+
+		a {
+			color: $black;
+		}
+
+		> div {
+			@include bp-each(width, 100%, 100%, 50%, 50%);
+			float: none;
+			background: none;
+			border: none;
+			padding-bottom: 0;
+			padding-top: 0;
+			vertical-align: middle;
+			display: inline-block;
+			position: relative;
+		}
+		
 		@extend .cf;
 	}
 
-	.goto.about, .goto.contact {
+	/*.goto.about, 
+	.goto.contact {
 		@include bp(md, min) {
 			@include transform(translateY(-100px));
 		}
-	}
+	}*/
 
 	.text {
 		font-family: $font-vol;
-		@include bp-each(font-size, 22px, 24px, 26px, 32px);
-		@include bp-each(width, 272px, 360px, 270px, 400px);
-		@include bp-each(margin-top, 0, 0, 150px, 150px);
 		line-height: 1.1;
-		font-style: italic;
-		margin-top: 50px;
+		margin: 30px 0;
+		padding: 15px;
+
+		h4 {
+			margin-bottom: 10px;
+		}
+
+		@include bp-each(font-size, 22px, 24px, 26px, 32px);
+		//@include bp-each(width, 80%, 360px, 350px, 400px);
+
 		@include bp(xs, only) {
 			text-align: center;
 			width: 272px;
 			margin: 0 auto;
 		}		
 
-		&:after {
-			content: "\25b6";
-			font-style: normal;
-			position: relative;
-			top: 0.1em;
-			opacity: 0.5;
-			transition: 0.1s linear all;
-			@include bp(xs, only) {
-				display: none;
-			}
+		.recent-post {
+			opacity: .5;
+			margin-bottom: 0;
 		}
 
 		&.email {
-			@include bp-each(width, 272px, 100%, 660px, 780px);
 			text-align: center;
 			margin-top: 0;
 			padding: 2em 0;
 			position: relative;
+
+			@include bp-each(width, 272px, 100%, 660px, 780px);
 			@include bp(sm, only) {
 				text-align: left;
 			}
@@ -105,6 +128,7 @@
 				left: 0;
 				right: 0;
 				opacity: 0.1;
+
 				@include bp(sm, only) {
 					background-position: left center;
 				}
@@ -117,7 +141,6 @@
 				font-style: normal;
 
 			}
-
 		}
 	}
 
@@ -126,20 +149,28 @@
 	}
 
 	.imagery {
-		height: 360px;
-		width: 360px;
 		position: relative;
+		text-align: center;
+
+		> a {
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+
 		@include bp(xs, only) {
 			width: 272px;
-			height: 272px;
 			margin: 0 auto;
 		}
 
+		@include bp(sm, max) {
+			margin-bottom: 30px;
+		}
+
 		img.wd {
-			position: absolute;
-			top: 8%;
-			left: 32%;
-			width: 55%;
+			position: relative;
+			width: 38%;
+
 			@include shadow(4);
 			@include transform(rotate(20deg));
 		}
@@ -148,26 +179,25 @@
 			position: relative;
 			top: 8%;
 			left: 5%;
-			width: 44%;
+			width: 34%;
+
 			@include shadow(3);
 			@include transform(rotate(10deg));
 		}
 
 		img.ab1 {
-			position: absolute;
 			width: 83%;
 			left: 8%;
 			top: 5%;
 			padding: 4% 4% 10%;
 			background: white;
+
 			@include transform(rotate(-8deg));
 			@include shadow(3);
-			//margin-top: -100px;
 		}		
 	}
 
-	.books .imagery {
-		@include bp-each(height, 240px, 320px, 360px, 360px);
+	.goto.contact {
+		text-align: center;
 	}
-
 }

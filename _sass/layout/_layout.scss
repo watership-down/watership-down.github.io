@@ -10,11 +10,11 @@ main {
 	left: $navlogo-width-md;
 	right: 0;
 	min-height: 100%;
-	//@include shadow(2);
 	z-index: -1;
 	font-family: $font-vol;
 	font-size: 16px;
 	overflow: hidden;
+
 	@include bp(lg) {
 		font-size: 20px;
 		left: $navlogo-width-lg;
@@ -100,7 +100,8 @@ main {
 	}
 
 	.book {
-		text-align: center;
+		text-align: left;
+
 		@include bp(xs, only) {
 			margin-bottom: 2em;
 		}
@@ -125,12 +126,39 @@ main {
 			display: none;
 		}
 
-		.book-cover {
+		/*.book-cover {
 			background-image: url('');
 			background-size: contain;
 			background-position: center center;
 			background-repeat: no-repeat;
-			padding: 40% 50%;
+			padding: 50% 50%;
+		}*/
+
+		.book-cover {
+			max-width: 100%;
+			height: auto
+		}
+
+		.info-wrapper {
+			color: $white;
+			position: absolute;
+			background-color: rgba(1,1,1,0.8);
+			top: 20px;
+			bottom: 20px;
+			left: 20px;
+			right: 20px;
+			display: none;
+			padding: 20px;
+
+			h2 {
+				color: $white;
+			}
+		}
+
+		.book-item:hover {
+			.info-wrapper {
+				display: block;
+			}
 		}
 	}
 
@@ -231,8 +259,6 @@ main {
 	}
 
 	.buy {
-		
-
 		a, select {
 			display: inline-block;
 			border-radius: 2px;

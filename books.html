@@ -4,32 +4,29 @@ title: Books
 order: 1
 ---
 
-
 <div class="container-fluid">
 	<div class="row book">
-	{% assign books = site.book | sort:"order" %}	
-	{% for book in books %}
-		
-			<div class="col-sm-12 col-md-6">
+		{% assign books = site.book | sort:"order" %}	
+		{% for book in books %}
+			<div class="book-item col-sm-12 col-md-6">
 				<a href="{{ book.url }}" class="more-info">
-					<div class="book-cover" style="background-image:url('/images/covers/{{ book.slug }}-cover.jpg')">
-					</div>
+					<img class="book-cover" src="/images/covers/{{ book.slug }}-cover.jpg"/>
 				</a>
 
-				<a href="{{ book.url }}" class="more-info">
-					<h2>{{ book.title }}</h2>
-				</a>
+				<div class="info-wrapper">
+					<a href="{{ book.url }}" class="more-info">
+						<h2>{{ book.title }}</h2>
+					</a>
 
-				<p>
-					{{ book.short }}
-				</p>
-				
-				<a href="{{ book.url }}" class="more-info">
-					+ More information
-				</a>
+					<p>
+						{{ book.short }}
+					</p>
+					
+					<a href="{{ book.url }}" class="more-info">
+						+ More information
+					</a>
+				</div>
 			</div>
-		
-	{% endfor %}
+		{% endfor %}
 	</div>
-		
 </div>

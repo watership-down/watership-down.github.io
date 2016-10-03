@@ -7,36 +7,85 @@ title: Homepage
 	<div class="row">
 		<div class="welcome">
 			<span>The official website of</span>
+
 			<span>Watership Down</span>
 		</div>
 	</div>
-	<a class="goto books" href="/books/">
-		<div class="imagery">				
-			<img class="sh" src="/images/covers/sh-cover.jpg" alt="Shardik front cover" />
-			<img class="wd" src="/images/covers/wd-cover.jpg" alt="Watership Down front cover" />
+
+	<div class="goto books">
+		<div class="imagery visible-xs visible-sm">
+			<a href="/books/">		
+				<img class="sh" src="/images/covers/sh-cover.jpg" alt="Shardik front cover" />
+				<img class="wd" src="/images/covers/wd-cover.jpg" alt="Watership Down front cover" />
+			</a>
 		</div>
+
 		<div class="text">
-			Explore Richard Adams's internationally acclaimed writing.
+			<a href="/books/">
+				<h4>Explore Richard Adams's internationally acclaimed writing.</h4>
+			</a>
+
+			<p>In our Books section you can discover more about the works of Adams, from Watership Down to his upcoming book.</p>
 		</div>
-	</a>
-	<a class="goto about" href="/about/">
-		<div class="imagery visible-xs visible-sm">				
-			<img class="ab1" src="/images/about1.jpg" alt="Richard Adams book signing"/>
+
+		<div class="imagery hidden-xs hidden-sm">
+			<a href="/books/">			
+				<img class="sh" src="/images/covers/sh-cover.jpg" alt="Shardik front cover" />
+				<img class="wd" src="/images/covers/wd-cover.jpg" alt="Watership Down front cover" />
+			</a>
 		</div>
-		<div class="text ">
-			Learn more about Richard Adams and Watership Down.
+	</div>
+
+	<div class="goto about">
+		<div class="imagery">
+			<a href="/about/">
+				<img class="ab1" src="/images/about1.jpg" alt="Richard Adams book signing"/>
+			</a>
 		</div>
-		<div class="imagery hidden-xs hidden-sm">				
-			<img class="ab1" src="/images/about1.jpg" alt="Richard Adams book signing"/>
+
+		<div class="text">
+			<a href="/about/">
+				<h4>Learn more about Richard Adams and Watership Down.</h4>
+
+				<p>
+					Richard Adams currently lives in Hampshire, England. He has written about his childhood and youth, including the time he served in the army in World War II, in 'The Day Gone By'.
+				</p>
+			</a>
 		</div>
-	</a>
-	<a class="goto contact" href="mailto:inquiries@watership-down.com">
+	</div>
+
+	<div class="goto news">
+		{% for post in site.posts limit: 1 %}
+			<div class="imagery visible-xs visible-sm">
+				<a href="{{ post.url | prepend: site.baseurl }}">
+					<img class="ab1" src="{{ post.image }}" alt="News image"/>
+				</a>
+			</div>
+
+			<div class="text">
+				<p class="recent-post">Recent News</p>
+
+				<a href="{{ post.url | prepend: site.baseurl }}">
+					<h4>{{ post.title }}</h4>
+				</a>
+
+				{{ post.date | date: "%b %-d, %Y" }}
+
+				<p>{{ post.excerpt }}</p>
+			</div>
+
+			<div class="imagery hidden-xs hidden-sm">
+				<a href="{{ post.url | prepend: site.baseurl }}">
+					<img class="ab1" src="{{ post.image }}" alt="News image"/>
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+
+	<div class="goto contact">
 		<div class="text email">
 			For all inquiries, <br class="visible-xs">please contact us at 
-			<div>inquiries@watership-down.com</div>
+			<a href="mailto:inquiries@watership-down.com"><div>inquiries@watership-down.com</div></a>
 		</div>
-		<!-- <div class="imagery">				
-			<img class="mail" src="/images/mail-icon.svg" />
-		</div> -->
-	</a>
+	</div>
 </div>

@@ -1,25 +1,18 @@
-# You can use a Docker image from Docker Hub or your own container
-# registry for your build environment.
-image: partlab/ubuntu-ruby
+image: codogo/pipelines-jekyll-aws:1.0.0
 
 pipelines:
-    default:
-        - step:
-            script:
-                - apt-get update -y 
-                - apt-get install s3cmd tree -y
-                - gem install jekyll
-                - tree
-                - bash -ex Scripts/build-dev.sh
-                - bash -ex Scripts/deploy-dev.sh
-                - echo "codogo-watership-down-site-dev.s3-website-eu-west-1.amazonaws.com/$BITBUCKET_BRANCH/"
-    branches:
-        master:
-            - step:
-                script:
-                    - apt-get update -y 
-                    - apt-get install s3cmd tree -y
-                    - gem install jekyll
-                    - tree
-                    - bash -ex Scripts/build-master.sh
-                    - bash -ex Scripts/deploy-master.sh
+  default:
+    - step:
+        script:
+          - tree
+          - bash -ex Scripts/build-dev.sh
+          - bash -ex Scripts/deploy-dev.sh
+          - echo "codogo-watership-down-site-dev.s3-website-eu-west-1.amazonaws.com/$BITBUCKET_BRANCH/"
+
+  branches:
+    master:
+      - step:
+          script:
+            - tree
+            - bash -ex Scripts/build-master.sh
+            - bash -ex Scripts/deploy-master.sh

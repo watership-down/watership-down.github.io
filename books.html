@@ -5,10 +5,11 @@ order: 1
 ---
 
 <div class="container-fluid">
-	<div class="row book">
-		{% assign books = site.book | sort:"order" %}	
+	<div class="row book-list" dataa-masonry='{ "itemSelector": ".book-item" }'>
+		{% assign books = site.book | sort:"order" %}
+
 		{% for book in books %}
-			<div class="book-item col-sm-12 col-md-6">
+			<div class="book-item col-sm-12 col-md-6 ">
 				<a href="{{ book.url }}" class="more-info">
 					<img class="book-cover" src="/images/covers/{{ book.slug }}-cover.jpg"/>
 				</a>

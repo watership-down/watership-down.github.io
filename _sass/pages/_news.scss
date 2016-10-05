@@ -1,4 +1,4 @@
-article.news-post {
+/*article.news-post {
 	a.title {
 		font-family: $font-title;
 		font-size: 32px;
@@ -10,5 +10,18 @@ article.news-post {
 		font-family: $font-serif;
 		font-size: 20px;
 		margin-bottom: 20px;
+	}
+}*/
+
+article.news-post {
+	margin-bottom: 2.5em;
+	padding-bottom: 2.5em;
+
+	&:not(:last-child) {
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+
+	img {
+		max-width: 100%;
 	}
 }

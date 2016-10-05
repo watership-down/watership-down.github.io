@@ -1,0 +1,46 @@
+.review {
+	width: 50%;
+	@include bp(xs, only) {
+		width: 100%;
+	}
+	padding: 0 $grid-padding-md;
+	@include bp(lg) {
+		padding: 0 $grid-padding-lg;
+	}
+	
+	.quote {
+		position: relative;
+		font-style: italic;
+		margin-bottom: 5px;
+		border-top: 1px solid rgba(0,0,0,0.1);
+		padding-top: 1em;
+	}
+
+	&:first-child .quote {
+		border: 0;
+		padding: 0;
+	}
+
+	&:nth-child(2) .quote {
+		@include bp(sm) {
+			border: 0;
+			padding: 0;
+		}
+	}
+
+	.quotee {
+		font-weight: bold;
+		padding-bottom: 1em;
+
+		&:before {
+			content: "- ";
+		}
+	}
+}
+
+.reviews {
+	margin: 0 -#{$grid-padding-md};
+	@include bp(lg) {
+		margin: 0 -#{$grid-padding-lg};
+	}
+}

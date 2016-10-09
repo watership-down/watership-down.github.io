@@ -1,3 +1,53 @@
+.book-list {
+	text-align: left;
+
+	@include bp(xs, only) {
+		margin-bottom: 2em;
+	}
+
+	div[class*="col-"] {
+		@include bp(sm, max) {
+			float: none;
+			margin: 0 auto;
+			max-width: 500px;
+		}
+
+		&:nth-child(2n+1) {
+			clear: left;
+		}
+	}
+
+	.img-wrapper {
+		display: none;
+	}
+	.book-cover {
+		max-width: 100%;
+		height: auto
+	}
+
+	.info-wrapper {
+		color: $white;
+		position: absolute;
+		background-color: rgba(1,1,1,0.8);
+		top: 20px;
+		bottom: 20px;
+		left: 20px;
+		right: 20px;
+		display: none;
+		padding: 20px;
+
+		h2 {
+			color: $white;
+		}
+	}
+
+	.book-item:hover {
+		.info-wrapper {
+			display: block;
+		}
+	}
+}
+
 /*section.book {
 	padding: 60px 30px;
 

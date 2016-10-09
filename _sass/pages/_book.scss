@@ -1,0 +1,37 @@
+// Book Listing
+
+.buy {
+	a, select {
+		display: inline-block;
+		border-radius: 2px;
+		padding: 0.4em 0.8em;
+		margin-right: 0.2em;
+		margin-bottom: 0.5em;
+	}
+
+	a {
+		color: $white;
+		background: $green;			
+	}
+
+	select {
+		color: $white;
+		background: $white;
+		color: $black;
+		border: none;
+		box-shadow: none;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	span {
+		display: none;
+		white-space: nowrap;
+
+		&.usa {
+			display: inline;
+		}
+	}
+}

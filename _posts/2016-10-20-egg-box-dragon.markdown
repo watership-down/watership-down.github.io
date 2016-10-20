@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "The Adventures of Eggbox Dragon"
+title:  "The Adventures of Egg Box Dragon"
 image: "/images/posts/eggbox.jpg"
 date:   2016-10-20 15:57:00 +0100
 ---
-Richard Adams is delighted to announce the signing of a contract with [Hodder Children's Books](https://www.hachettechildrens.co.uk/homepage_hodderchildrens.page) for the publication of his new picture book story 'The Adventures of Eggbox Dragon'.
+Richard Adams is delighted to announce the signing of a contract with [Hodder Children's Books](https://www.hachettechildrens.co.uk/homepage_hodderchildrens.page) for the publication of his new picture book story ['The Adventures of Egg Box Dragon'](https://www.hachettechildrens.co.uk/books/detail.page?isbn=9781444938401).
 
 ![An eggbox dragon](/images/posts/eggbox.jpg)
 

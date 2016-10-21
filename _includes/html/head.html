@@ -57,9 +57,12 @@
 	{% if page.layout == 'book' %}
 	  <meta name="twitter:image:src" content="{{ site.url }}//images/{{ page.slug }}-cover.jpg">
 	{% else %}
-	  <meta name="twitter:image:src" content="{{ site.url }}/images/header-pic.png">
+		{% if page.image %}
+			<meta name="twitter:image:src" content="{{ site.url }}/{{page.image}}">
+		{% else %}
+	  		<meta name="twitter:image:src" content="{{ site.url }}/images/header-pic.png">
+		{% endif %}  		
 	{% endif %}
-
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">

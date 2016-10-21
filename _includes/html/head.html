@@ -55,10 +55,10 @@
 	  <meta name="twitter:description" content="{{ site.description }}">
 	{% endif %}
 	{% if page.layout == 'book' %}
-	  <meta name="twitter:image:src" content="{{ site.url }}//images/{{ page.slug }}-cover.jpg">
+	  <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.slug }}-cover.jpg">
 	{% else %}
 		{% if page.image %}
-			<meta name="twitter:image:src" content="{{ site.url }}/{{page.image}}">
+			<meta name="twitter:image:src" content="{{ site.url }}{{page.image}}">
 		{% else %}
 	  		<meta name="twitter:image:src" content="{{ site.url }}/images/header-pic.png">
 		{% endif %}  		

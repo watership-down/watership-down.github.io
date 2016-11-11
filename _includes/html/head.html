@@ -24,15 +24,15 @@
 	<meta property="og:description" content="{% if page.short %}{{ page.short | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
 	<!-- General image-->
-	<link rel="image_src" type="image/jpeg" href="{% if page.layout == 'book' %}{{ site.url }}/images/{{ page.slug }}-cover.jpg{% else %}{{ site.url }}/images/header-pic.png{% endif %}" />
+	<link rel="image_src" type="image/jpeg" href="{% if page.layout == 'book' %}{{ site.url }}/images/{{ page.slug }}-cover.jpg{% else %}{% if page.image %}{{ site.url }}{{page.image}}{% else %}{{ site.url }}/images/header-pic.png{% endif %}" />
 
 	<!-- 180x110 Image for Linkedin -->
-	<meta property="og:image" content="{% if page.layout == 'book' %}{{ site.url }}/images/{{ page.slug }}-cover.jpg{% else %}{{ site.url }}/images/header-pic.png{% endif %}" />
+	<meta property="og:image" content="{% if page.layout == 'book' %}{{ site.url }}/images/{{ page.slug }}-cover.jpg{% else %}{% if page.image %}{{ site.url }}{{page.image}}{% else %}{{ site.url }}/images/header-pic.png{% endif %}" />
 	<meta property="og:image:width" content="180" />
 	<meta property="og:image:height" content="110" />
 
 	<!-- 600x315 Image for Facebook -->
-	<meta property="og:image" content="{% if page.layout == 'book' %}{{ site.url }}/images/{{ page.slug }}-cover.jpg{% else %}{{ site.url }}/images/header-pic.png{% endif %}" />
+	<meta property="og:image" content="{% if page.layout == 'book' %}{{ site.url }}/images/{{ page.slug }}-cover.jpg{% else %}{% if page.image %}{{ site.url }}{{page.image}}{% else %}{{ site.url }}/images/header-pic.png{% endif %}"/>
 	<meta property="og:image:width" content="600" />
 	<meta property="og:image:height" content="315" />
 

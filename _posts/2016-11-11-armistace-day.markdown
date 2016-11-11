@@ -2,7 +2,7 @@
 layout: post
 title:  "Armistice Day"
 image: "/images/posts/armistice.jpg"
-date:   2016-11-11 14:07:00 +0100
+date:   2016-11-11 09:07:00 +0100
 short: "In his autobiography 'The Day Gone By' Richard muses on Armistice Day"
 ---
 

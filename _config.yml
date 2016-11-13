@@ -1,23 +1,16 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Watership Down
 email: inquiries@watership-down.com
 
 description: > # this means to ignore newlines until "baseurl:"
-    The official website for Watership Down Enterprises,
-    and the publications of Richard Adams.
+    The official website of Watership Down Enterprises and the publications of author Richard Adams.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://watership-down.com" # the base hostname & protocol for your site
 twitter_username: Watership_Down_
 facebook_username: Watership Down Enterprises
 facebook_url: Watership-Down-Enterprises-1045168595532268
 permalink: pretty
+locale: "en-GB"
 
 # Build settings
 markdown: kramdown

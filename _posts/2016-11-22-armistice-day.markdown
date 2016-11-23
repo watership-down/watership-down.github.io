@@ -3,10 +3,7 @@ layout: post
 title:  "One for sorrow, two for joy..."
 image: "/images/posts/magpie.jpg"
 date:   2016-11-22 19:07:00 +0100
-short: "I love the fitfull gusts that shakes
- The casement all the day
-And from the mossy elm tree takes
- The faded leaf away"
+short: "I love the fitfull gusts that shakes The casement all the day And from the mossy elm tree takes The faded leaf away"
 ---
 
 ![A magpie](/images/posts/magpie.jpg)

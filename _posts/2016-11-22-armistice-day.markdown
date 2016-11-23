@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Autumn"
+title:  "One for sorrow, two for joy..."
 image: "/images/posts/magpie.jpg"
 date:   2016-11-22 19:07:00 +0100
 short: "I love the fitfull gusts that shakes
@@ -28,7 +28,6 @@ I love to see the shaking twig
  Dance till the shut of eve  
 The sparrow on the cottage rig  
  Whose chirp would make believe  
-
 That spring was just now flirting by  
 In summers lap with flowers to lie  
 
@@ -44,4 +43,4 @@ The feather from the ravens breast
 The acorns near the old crows nest  
  Fall pattering down the tree  
 The grunting pigs that wait for all  
-Scramble and hurry where they fall  
+Scramble and hurry where they fall.

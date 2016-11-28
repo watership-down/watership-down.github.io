@@ -8,7 +8,7 @@ short: "I love the fitfull gusts that shakes The casement all the day And from t
 
 ![A magpie](/images/posts/magpie.jpg)
 
-Very high wind again - a nor'wester this time, howling on into the night. The magpies (plentiful as tabby cats, in point of fact, too many) seem undeterred by bany amount of wind. They take to the air in the gale, balancing with the help of their long tails, which they can partly open, and raise or lower almost to a right angle. I don't care for them - raffish, predatory creatures; 'can't sing either.
+Very high wind again - a nor'wester this time, howling on into the night. The magpies (plentiful as tabby cats, in point of fact, too many) seem undeterred by any amount of wind. They take to the air in the gale, balancing with the help of their long tails, which they can partly open, and raise or lower almost to a right angle. I don't care for them - raffish, predatory creatures; 'can't sing either.
 
 I turn to my old friend John Clare, that great poet, for a bit of a lift:
 

@@ -15,5 +15,5 @@ Listen online now: [http://www.bbc.co.uk/programmes/b08298xw](http://www.bbc.co.
 Listen to Part 1: [http://www.bbc.co.uk/programmes/b081tpw0](http://www.bbc.co.uk/programmes/b081tpw0)  
 Listen to Part 2: [http://www.bbc.co.uk/programmes/b0829dcv](http://www.bbc.co.uk/programmes/b0829dcv)
 
-![Richard and Elizabeth watching Strictly](/images/posts/radio-4.jpg)
+![Watership Down Radio 4 Thumbnail](/images/posts/radio-4.jpg)
 

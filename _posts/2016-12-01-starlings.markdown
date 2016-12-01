@@ -2,7 +2,7 @@
 layout: post
 title:  "A murmuration of starlings in Whitehall"
 image: "/images/posts/starlings.jpg"
-date:   2016-12-01 11:07:00 +0100
+date:   2016-12-01 13:07:00 +0100
 short: "Richard Adams wasn't really cut out for working in an office in London; here's a telling little piece he wrote about one of his experiences there"
 ---
 

@@ -67,7 +67,8 @@ title: Homepage
 					<h4>{{ post.title }}</h4>
 				</a>
 
-				{{ post.date | date: "%b %-d, %Y" }}
+				<p class="recent-post">{{ post.date | date: "%b %-d, %Y" }}</p>
+				<br>
 
 				<p>{{ post.short }}</p>
 			</div>

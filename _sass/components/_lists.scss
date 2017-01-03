@@ -1,0 +1,10 @@
+ul.padded {
+    list-style: initial;
+    margin: initial;
+    padding: 0 0 0 40px;
+
+	li {
+	    display: list-item;
+	    list-style: disc;
+	}
+}

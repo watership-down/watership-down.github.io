@@ -93,4 +93,22 @@
 		ga('send', 'pageview');
 	</script>
 
+	<!-- Cookie Warning -->
+
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#fff"
+				},
+				"button": {
+					"background": "#32AB64",
+					"text": "#fff"
+				}
+			}
+		})});
+	</script>
 </head>

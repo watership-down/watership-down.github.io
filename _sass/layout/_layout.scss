@@ -18,6 +18,7 @@ main {
 		font-size: 20px;
 		left: $navlogo-width-lg;
 	}
+
 	@include bp(xs, only) {
 		left: 0;
 		top: $navbar-height;
@@ -28,9 +29,9 @@ main {
 		@include bp-each(padding, $grid-padding-xs, $grid-padding-md, $grid-padding-md, $grid-padding-lg);
 	}
 
-	@include bp(lg) {
+	/*@include bp(lg) {
 		width: $screen-lg-min - $navlogo-width-lg;
-	}
+	}*/
 
 	img.full-col {
 		display: block;
@@ -64,19 +65,19 @@ main {
 		@include bp(xs, only) {
 			font-size: 1.6em;
 		}
+
+		&.sub {
+			font-size: 1.4em;
+			margin-bottom: 5px;
+
+			& + h1 {
+				margin-top: 0;
+			}
+		}
 	}
 
 	h2 {
 		font-size: 1.6em;
-	}
-
-	h1.sub {
-		font-size: 1.4em;
-		margin-bottom: 5px;
-
-		& + h1 {
-			margin-top: 0;
-		}
 	}
 
 	p {

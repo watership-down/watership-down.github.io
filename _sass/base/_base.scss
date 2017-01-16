@@ -33,12 +33,12 @@ h4 {
 a {
 	text-decoration: none;
 	color: $link-color;
-}
 
-a:hover,
-a:active,
-a:visited {
-	color: $link-color;
+	&:hover,
+	&:active,
+	&:visited {
+		color: $link-color;
+	}
 }
 
 p {

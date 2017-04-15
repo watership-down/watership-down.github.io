@@ -1,18 +1,24 @@
-image: codogo/pipelines-jekyll-aws:1.0.0
+image: codogo/pipelines-universal:latest
 
 pipelines:
   default:
     - step:
         script:
-          - tree
-          - bash -ex Scripts/build-dev.sh
-          - bash -ex Scripts/deploy-dev.sh
-          - echo "codogo-watership-down-site-dev.s3-website-eu-west-1.amazonaws.com/$BITBUCKET_BRANCH/"
-
+          - yarn install
+          - yarn run build
   branches:
     master:
       - step:
           script:
-            - tree
-            - bash -ex Scripts/build-master.sh
-            - bash -ex Scripts/deploy-master.sh
+            - yarn install
+            - yarn run build
+            - >
+              aws s3 sync
+              --exclude "$(cat .s3ignore)"
+              --delete
+              public/
+              s3://codogo-watership-down-site-dev/
+            - >
+              aws cloudfront create-invalidation 
+              --distribution-id=ENY36WYXVXRL4
+              --path="/*"

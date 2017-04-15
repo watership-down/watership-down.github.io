@@ -1,3 +1,8 @@
+#Build Settings
+destination: public
+source: src
+exclude: ['node_modules']
+
 # Site settings
 title: Watership Down
 email: inquiries@watership-down.com
@@ -6,11 +11,14 @@ description: > # this means to ignore newlines until "baseurl:"
     The official website of Watership Down Enterprises and the publications of author Richard Adams.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://watership-down.com" # the base hostname & protocol for your site
+locale: "en-GB"
+
+#Social
 twitter_username: Watership_Down_
 facebook_username: Watership Down Enterprises
 facebook_url: Watership-Down-Enterprises-1045168595532268
+
 permalink: pretty
-locale: "en-GB"
 
 # Build settings
 markdown: kramdown
@@ -18,3 +26,6 @@ markdown: kramdown
 collections:
   book:
     output: true
+
+# Tracker
+#analytics: UA-83979019-1

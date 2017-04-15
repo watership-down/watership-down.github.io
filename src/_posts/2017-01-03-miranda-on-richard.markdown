@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Richard Adams, as remembered by his family"
-image: "/images/posts/miranda.jpg"
+image: "/assets/img/posts/miranda.jpg"
 date:   2017-01-03 16:05:00 +0100
 short: "Miranda Johnson, a granddaughter of Richard Adams, has produced two articles exploring Richard&rsquo;s life and works."
 ---

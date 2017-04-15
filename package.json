@@ -23,6 +23,8 @@
   "dependencies": {
     "codogo-default-scss": "^2.0.1",
     "jquery": "3.0.0",
+    "jquery-bridget": "^2.0.1",
+    "masonry-layout": "^4.1.1",
     "social-share": "^0.1.0",
     "whatwg-fetch": "^2.0.3"
   },

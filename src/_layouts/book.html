@@ -1,5 +1,6 @@
 ---
 layout: default
+class: book
 ---
 
 <div class="container-fluid">
@@ -8,9 +9,9 @@ layout: default
 			{% if page.slug == 'wd' %}
 				<div class="slides">
 					<div class="img-wrapper slides">
-						<div class="images">
-							<img class="active" src="/images/covers/{{ page.slug }}-cover.jpg" alt="Book cover" />
-							<img class="longer" src="/images/covers/{{ page.slug }}-cover-2.jpg" alt="Book cover" />
+						<div class="img">
+							<img class="active" src="/assets/img/covers/{{ page.slug }}-cover.jpg" alt="Book cover" />
+							<img class="longer" src="/assets/img/covers/{{ page.slug }}-cover-2.jpg" alt="Book cover" />
 						</div>
 
 						<div class="info">
@@ -26,7 +27,7 @@ layout: default
 				</div>
 			{% else %}
 				<div class="img-wrapper">
-					<img src="/images/covers/{{ page.slug }}-cover.jpg" alt="Book Cover"/>
+					<img src="/assets/img/covers/{{ page.slug }}-cover.jpg" alt="Book Cover"/>
 				</div>
 			{% endif %}
 		</div>

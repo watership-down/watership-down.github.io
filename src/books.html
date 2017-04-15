@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Books
+class: books
 order: 1
 ---
 
@@ -11,7 +12,7 @@ order: 1
 		{% for book in books %}
 			<div class="book-item col-sm-12 col-md-6 ">
 				<a href="{{ book.url }}" class="more-info">
-					<img class="book-cover" src="/images/covers/{{ book.slug }}-cover.jpg"/>
+					<img class="book-cover" src="/assets/img/covers/{{ book.slug }}-cover.jpg"/>
 				</a>
 
 				<div class="info-wrapper">

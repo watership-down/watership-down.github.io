@@ -49,7 +49,7 @@ nav.site-nav {
 
 		&.active, &.active:hover, &.active:active {
 			background: #ddd;
-			background: url('/images/paper_fibers.png');
+			background: url('/assets/img/paper_fibers.png');
 			color: darken($green, 10%);
 		}		
 	}
@@ -60,7 +60,7 @@ nav.site-nav {
 		//padding: 50%;
 		//background: rgba(255,255,255,0.5);
 		//border-radius: 50%
-		background: url('/images/crest.png');
+		background: url('/assets/img/crest.png');
 	}
 
 	.logo.active .crest {

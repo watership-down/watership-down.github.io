@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Requiescat in Pace"
-image: "/images/about2.jpg"
+image: "/assets/img/about2.jpg"
 date:   2016-12-27 16:05:00 +0100
 short: "Richard&rsquo;s much loved family announce with sadness that their dear father, grandfather, and great-grandfather passed away peacefully at 10pm on Christmas Eve."
 ---
 
-![Richard Adams](/images/about2.jpg)
+![Richard Adams](/assets/img/about2.jpg)
 
 Richard&rsquo;s much loved family announce with sadness that their dear father, grandfather, and great-grandfather passed away peacefully at 10pm on Christmas Eve.
 

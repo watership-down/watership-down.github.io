@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Watership Down on BBC Radio 4"
-image: "/images/posts/radio-4.jpg"
+image: "/assets/img/posts/radio-4.jpg"
 date:   2016-11-13 13:07:00 +0100
 short: "Watership Down, now available on BBC Radio 4"
 ---
@@ -15,5 +15,5 @@ Listen online now: [http://www.bbc.co.uk/programmes/b08298xw](http://www.bbc.co.
 Listen to Part 1: [http://www.bbc.co.uk/programmes/b081tpw0](http://www.bbc.co.uk/programmes/b081tpw0)  
 Listen to Part 2: [http://www.bbc.co.uk/programmes/b0829dcv](http://www.bbc.co.uk/programmes/b0829dcv)
 
-![Watership Down Radio 4 Thumbnail](/images/posts/radio-4.jpg)
+![Watership Down Radio 4 Thumbnail](/assets/img/posts/radio-4.jpg)
 

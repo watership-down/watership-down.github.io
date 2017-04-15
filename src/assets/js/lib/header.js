@@ -10,8 +10,4 @@ $(function() {
 			$('.darken').fadeIn(200).addClass('open');;
 		}
 	});
-
-	// $.getJSON('http://ipinfo.io', function(data){
-	//   console.log(data)
-	// });
 });

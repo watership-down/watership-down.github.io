@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "A murmuration of starlings in Whitehall"
-image: "/images/posts/starlings.jpg"
+image: "/assets/img/posts/starlings.jpg"
 date:   2016-12-01 13:07:00 +0100
 short: "Richard Adams wasn't really cut out for working in an office in London; here's a telling little piece he wrote about one of his experiences there"
 ---
 
-![Starlings flocking](/images/posts/starlings.jpg)
+![Starlings flocking](/assets/img/posts/starlings.jpg)
 
 Before becoming a full-time author, Richard worked for many years in the Ministry of Housing and Local Government, later subsumed into the Department of the Environment. He worked on some interesting stuff, including the Clean Air acts and the Thames Flood Barrier; nevertheless, he wasn't really cut out for working in an office in London, and over the years the Big Smoke took its toll on this countryside-loving man. Here's a telling little piece he wrote about one of his experiences there:
 

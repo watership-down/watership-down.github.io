@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "November arrives..."
-image: "/images/posts/robin.jpg"
+image: "/assets/img/posts/robin.jpg"
 date:   2016-11-04 14:07:00 +0100
 short: "'The mellow year is hasting to its close;
 The little birds have almost sung their last.'"
@@ -24,4 +24,4 @@ Of oozy brooks, which no deep banks define,
 And the gaunt woods, in ragged, scant array,  
 Wrap their old limbs with sombre ivy twine."  
 
-![Richard and Elizabeth watching Strictly](/images/posts/robin.jpg)
+![Richard and Elizabeth watching Strictly](/assets/img/posts/robin.jpg)

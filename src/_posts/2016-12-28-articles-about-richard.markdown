@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Tributes to Richard"
-image: "/images/posts/guardian.jpg"
+image: "/assets/img/posts/guardian.jpg"
 date:   2016-12-28 16:05:00 +0100
 short: "Of all the pieces written about Richard that we have seen, this was the one that most moved us and we'd like to share it with you."
 ---
 
-![Richard Adams walking](/images/posts/guardian.jpg)
+![Richard Adams walking](/assets/img/posts/guardian.jpg)
 
 We would like to say thank you for everyone's support, and the outpouring of kind words and tributes to Richard over the past few days. 
 

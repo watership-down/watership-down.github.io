@@ -4,7 +4,7 @@
 
 main {
 	position: absolute;
-	background: url('/images/paper_fibers.png');
+	background: url('/assets/img/paper_fibers.png');
 	top: 0;
 	left: $navlogo-width-md;
 	right: 0;
@@ -119,7 +119,7 @@ main {
 	.slides {
 		position: relative;
 
-		.images {
+		.img {
 			position: relative;
 			background: white;
 

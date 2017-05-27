@@ -191,16 +191,21 @@
 			@include transform(rotate(10deg));
 		}
 
-		img.ab1 {
+		img.ab1,
+		img.ab2 {
 			width: 83%;
 			left: 8%;
 			top: 5%;
 			padding: 4% 4% 10%;
 			background: white;
 
-			@include transform(rotate(-8deg));
+			@include transform(rotate(-6deg));
 			@include shadow(3);
-		}		
+		}
+
+		img.ab2 {
+			@include transform(rotate(6deg));
+		}
 	}
 
 	.goto.contact {

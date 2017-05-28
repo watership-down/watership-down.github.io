@@ -17,7 +17,7 @@ pipelines:
               --exclude "$(cat .s3ignore)"
               --delete
               public/
-              s3://codogo-watership-down-site-dev/
+              s3://codogo-watership-down-site-prod/
             - >
               aws cloudfront create-invalidation 
               --distribution-id=ENY36WYXVXRL4

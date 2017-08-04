@@ -6,12 +6,14 @@ layout: default
 	<div class="row">
 		<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 			<article class="news-post">
+				{{ page.date | date: "%b %-d, %Y" }}
+				
 				<a href="{{ page.url | prepend: site.baseurl }}">
 					<h1 class="title">
 					   {{ page.title }}
 					</h1>
 				</a>
-				{{ page.date | date: "%b %-d, %Y" }}
+
 				<p>{{ page.content }}</p>
 			</article>
 		</div>

@@ -3,6 +3,8 @@
 $banner-height: 400px;
 $article-inset: 60px;
 
+/* Not really used?? Remove?? */
+
 .post-banner {
 	height: $banner-height;
 	width: 100%;
@@ -35,8 +37,10 @@ $article-inset: 60px;
 	}
 }
 
-article.post-page, section.related-posts {
+article.post-page, 
+section.related-posts {
 	background: white;
+	
 	@include shadow(2);
 }
 
@@ -96,56 +100,60 @@ article.post-page {
 
 		img {
 			max-width: 100%;
+			max-height: 50vh;
 		}
 
 		code {
 			padding: 2px 6px;
-		    font-size: 80%;
-		    background-color: #f4f4f4;
-		    border: 1px solid #ddd;
-		    border-radius: 4px;
-		    margin: 0 2px;
-		}
-
-		pre.highlight code {
-			padding: 0;
-		    background-color: transparent;
-		    border: 0;
-		    margin: 0;
+			font-size: 80%;
+			background-color: #f4f4f4;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			margin: 0 2px;
 		}
 
 		pre.highlight {
 			padding: 2px 6px;
-		    background-color: #f4f4f4;
-		    border: 1px solid #ddd;
-		    border-radius: 4px;
-		    margin: 0 2px;
-		    margin-bottom: 20px;
-		    font-size: 20px;
+			background-color: #f4f4f4;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			margin: 0 2px;
+			margin-bottom: 20px;
+			font-size: 20px;
+
+			code {
+				padding: 0;
+				background-color: transparent;
+				border: 0;
+				margin: 0;
+			}
 		}
 
 		a {
 			white-space: nowrap;
+			
+			&:before {
+				background: $link-color;
+				bottom: 0;
+				content: ' ';
+				height: 2px;
+				opacity: 0;
+				position: absolute;
+				transition: 0.2s ease-in-out all;
+				width: 100%;
+
+				@include transform(translateY(0));
+			}
+			
+			&:hover:before {
+				@include transform(translateY(-2px));
+				opacity: 1;
+			}
 		}
 
-		a:before {
-			content: ' ';
-			position: absolute;
-			width: 100%;
-			height: 2px;
-			bottom: 0;
-			background: $link-color;
-			@include transform(translateY(0));
-			transition: 0.2s ease-in-out all;
-			opacity: 0;
+		hr {
+			margin-bottom: 1em;
 		}
-
-		a:hover:before {
-			@include transform(translateY(-2px));
-			opacity: 1;
-		}
-
-		
 	}
 }
 
@@ -164,11 +172,12 @@ section.related-posts {
 
 	.related-post {
 		background: $white;
-		@include shadow(2);
 		margin-bottom: 20px;
 		padding: 20px;
 		display: block;
 		transition: 0.1s ease-out all;
+
+		@include shadow(2);
 
 		&:last-child {
 			margin-bottom: 0;
@@ -192,7 +201,5 @@ section.related-posts {
 			@include shadow(3);
 			@include transform(scale(1.05,1.05));
 		}
-
-
 	}
 }

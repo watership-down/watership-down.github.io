@@ -10,7 +10,7 @@
 	<div class="links">
 		{% assign sorted_pages = site.pages | sort:"order" %}
 		{% for some_page in sorted_pages %}
-			{% if some_page.title and some_page.order %}
+			{% if some_page.title and some_page.order and some_page.url and some_page.url != '/blog/page2/' and some_page.url != '/blog/page3/'%}
 				<div class="link">
 					<a class="{% if some_page == page %}active{% endif %}" href="{{ some_page.url | prepend: site.baseurl }}">{{ some_page.title }}</a>
 				</div>

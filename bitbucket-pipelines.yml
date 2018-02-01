@@ -11,6 +11,7 @@ pipelines:
       - step:
           script:
             - yarn install
+            - gem install jekyll-paginate    
             - yarn run build
             - >
               aws s3 sync

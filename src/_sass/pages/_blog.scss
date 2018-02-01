@@ -30,3 +30,13 @@ article.news-post {
 		margin-bottom: 1em;
 	}
 }
+
+.pagination {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	.disabled {
+		opacity: 0.2;
+	}
+}

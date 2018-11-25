@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Watership Down mini-series premier at BFI Southbank"
+title: "BBC one sees return of Watership Down this Christmas"
 image: "/assets/img/posts/watership-tv-1.jpg"
 date: 2018-11-15 13:05:00 +0100
 short: "Watership Down mini series coming this Christmas on BBC1"

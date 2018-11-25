@@ -14,7 +14,7 @@ This weekend, London's BFI Southbank premiered episodes 1 and 2 of the upcoming 
 
 During the credits, the audience were treated to the first public listening of Sam Smith's brand new song, Fire On Fire, written specifically for the show.
 
-![The viewing ended with a Q&A session](/assets/img/posts/premier-4.jpg)
+![The viewing ended with a Q&A session](/assets/img/posts/premier-1.jpg)
 
 The two gripping episodes were followed by a Q&A featuring the show's director, writer, and producers, as well as cast members James McAvoy (Hazel), Gemma Arterton (Hyzenthlay), and Nicholas Holt (Fiver).
 

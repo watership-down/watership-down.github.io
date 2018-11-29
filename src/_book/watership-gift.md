@@ -1,0 +1,22 @@
+
+---
+layout: book
+title: "Watership Down: Classic Gift Edition"
+order: 0
+slug: wdg
+short: "A beautiful new hardback gift edition of the beloved Richard Adams classic Watership Down - a Christmas gift in waiting."
+reviews:
+- 
+  quote: A gripping story of rebellion in a rabbit warren and the subsequent adventures of the rebels. Adams has a poetic eye and a gift for storytelling which will speak to readers of all ages for many years to come.
+  quotee: The Sunday Times
+links:
+  uk:
+    -
+      label: Buy Gift Edition
+      link: https://www.amazon.co.uk/Watership-Down-Classic-Gift-Ribbon/dp/1786070278/ref=sr_1_9_sspa?ie=UTF8&qid=1543432963&sr=8-9-spons&keywords=watership+down+book&psc=1
+
+---
+
+<p>A phenomenal worldwide bestseller for over forty years, Richard Adams' spellbinding classic Watership Down is one of the best-loved novels of all time, and resonates just as vividly today as it did nearly half a century ago.</p>
+
+<p>With a new four-part BBC adaptation planned for Christmas 2018, in collaboration with Netflix and voiced by stars including John Boyega, Rosamund Pike, Olivia Colman and James McAvoy, this beautiful new heritage edition will be treasured by children for years to come. Design features of this classic edition include gold foil, head and tail bands and a beautiful gold ribbon, making this the ideal gift for Christmas and beyond.</p>

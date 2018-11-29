@@ -2,7 +2,7 @@
 ---
 layout: book
 title: "Watership Down: Classic Gift Edition"
-order: 0
+order: 1
 slug: wdg
 short: "A beautiful new hardback gift edition of the beloved Richard Adams classic Watership Down - a Christmas gift in waiting."
 reviews:

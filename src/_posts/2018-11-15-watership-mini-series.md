@@ -8,7 +8,7 @@ short: "Watership Down mini series coming this Christmas on BBC1"
 
 ![A still from the upcoming mini series](/assets/img/posts/watership-tv-1.jpg)
 
-Watership Down returns this Christmas in a new 4-part mini-series, created by the BBC and Netflix. Each 50-minute episode follows one leg of the journey of the determined Hazel (James McAvoy) and insightful Fiver (Nicholas Holt), as they try to find and estiablish a home at the safe haven of Watership Down.
+Watership Down returns this Christmas in a new 4-part mini-series, created by the BBC and Netflix. Each 50-minute episode follows one leg of the journey of the determined Hazel (James McAvoy) and insightful Fiver (Nicholas Holt), as they try to find and establish a home at the safe haven of Watership Down.
 
 Richard Adams' best-selling book will be brought to life once again by an all-star cast also including Gemma Arterton, John Boyega, Olivia Colman, Sir Ben Kingsley, Daniel Kaluuya, Rosamund Pike, Peter Capaldi, Taron Egerton, Mackenzie Crook and more!
 

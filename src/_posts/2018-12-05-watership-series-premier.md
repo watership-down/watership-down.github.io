@@ -2,7 +2,7 @@
 layout: post
 title: "Watership Down mini-series premier at BFI Southbank"
 image: "/assets/img/posts/premier-4.jpg"
-date: 2018-11-25 13:05:00 +0100
+date: 2018-12-05 13:05:00 +0100
 short: "This weekend, London's BFI Southbank premiered episodes 1 and 2 of the upcoming BBC1 4-part Watership Down mini-series."
 ---
 

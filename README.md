@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Watership Down Enterprises
 
 Watership Down Enterprises Marketing Site

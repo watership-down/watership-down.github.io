@@ -3,7 +3,7 @@
 <html>
     {% include html/head.html %}
 
-    <body class="{{ page.class }} {{ layout.class }} {{ page.layout }} {{ page.title }}">
+    <body class="{{ page.class }} {{ layout.class }} {{ page.layout }} {% capture mytitle%}{{page.title}}{%endcapture%}">
         <header>
             {% include html/header.html %}
         </header>

@@ -2,7 +2,7 @@
 layout: post
 title: "Celebrating the Centenary of Richard Adams"
 image: "/assets/img/posts/centenary1.jpeg"
-date: 2020-05-08 15:29:00 +0100
+date: 2020-05-09 08:01:00 +0100
 short: "Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by reading the beloved classic children’s story, Watership Down."
 ---
 
@@ -11,14 +11,14 @@ short: "Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by r
   
 
 _“All the world will be your enemy, Prince with a Thousand Enemies, and whenever they catch you, they will kill you. But first they must catch you, digger, listener, runner, prince with the swift warning. Be cunning and full of tricks and your people shall never be destroyed.”_  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&ndash; Watership Down
 
-  
-
-
+<br/>
 
 ---
 
+<br/>
 
 ## Watership Down
 ### By Richard Adams
@@ -29,14 +29,20 @@ One of the most beloved novels of our time, __WATERSHIP DOWN__, first published
 
 A stirring epic of courage and survival against the odds it is both an exciting adventure story and an involving allegory about freedom, ethics, and human nature, it has delighted generations with its unique and charming world, winning many awards and being adapted to film, television, and theater.
 
+<br/>
+
 ![Richard Adams](/assets/img/posts/centenary1.jpeg)
+
+<br/>
 
 ### Praise For Watership Down
 
 _It’s a thrilling tale, and everything from the voice work to the direction aid in its multi-layered impact._  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&ndash; Ben Travers, Watership Down, TV series, IndieWire, Dec 2018
 
 _As much about freedom, ethics, and human nature as it is about a bunch of bunnies looking for a warm hidey-hole and some mates, Watership Down will continue to make the transition from classroom desk to bedside table for many generations to come._  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&ndash; Paul Hughes
 
 ### Published around the world

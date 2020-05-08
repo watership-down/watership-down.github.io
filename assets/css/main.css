@@ -2133,3 +2133,7 @@ article.news-post {
       transform: rotate(6deg); }
   .home .goto.contact {
     text-align: center; }
+
+em {
+  color: #777777;
+}

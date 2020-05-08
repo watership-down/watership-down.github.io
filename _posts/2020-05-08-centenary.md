@@ -3,11 +3,8 @@ layout: post
 title: "Celebrating the Centenary of Richard Adams"
 image: "/assets/img/posts/centenary1.jpeg"
 date: 2020-05-08 15:29:00 +0100
-short: "Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by reading the beloved classic children’s story."
+short: "Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by reading the beloved classic children’s story, Watership Down."
 ---
-
-## Watership Down
-### By Richard Adams
 
 ![The centenary of Richard Adams’ birth](/assets/img/posts/centenary2.png)
    
@@ -23,9 +20,9 @@ _“All the world will be your enemy, Prince with a Thousand Enemies, and whenev
 ---
 
 
-  
+## Watership Down
+### By Richard Adams
 
-  
 Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by reading the beloved classic children’s story. Richard Adams (1920–2016) grew up in Berkshire, England, the son of a country doctor. After an education at Oxford, he spent six years in the army and then went into the civil service. He wrote many novels and short stories, including Watership Down and Shardik.
 
 One of the most beloved novels of our time, __WATERSHIP DOWN__, first published in 1972, is an epic journey, a stirring tale of adventure, courage, and survival. 

@@ -38,22 +38,6 @@ title: Homepage
 		</div>
 	</div>
 
-	<div class="goto about">
-		<div class="imagery">
-			<a href="/about/">
-				<img class="ab1" src="/assets/img/about1.jpg" alt="Richard Adams book signing"/>
-			</a>
-		</div>
-
-		<div class="text">
-			<a href="/about/">
-				<h4>Learn more about Richard Adams and Watership Down.</h4>
-			</a>
-
-			<p>Richard Adams lived in Hampshire, England. He has written about his childhood and youth, including the time he served in the army in World War II, in '<a href="/book/the-day-gone-by/">The Day Gone By</a>'.</p>
-		</div>
-	</div>
-
 	<div class="goto news">
 		{% for post in site.posts limit: 1 %}
 			<div class="imagery visible-xs visible-sm">
@@ -81,6 +65,22 @@ title: Homepage
 				</a>
 			</div>
 		{% endfor %}
+	</div>
+
+	<div class="goto about">
+		<div class="imagery">
+			<a href="/about/">
+				<img class="ab1" src="/assets/img/about1.jpg" alt="Richard Adams book signing"/>
+			</a>
+		</div>
+
+		<div class="text">
+			<a href="/about/">
+				<h4>Learn more about Richard Adams and Watership Down.</h4>
+			</a>
+
+			<p>Richard Adams lived in Hampshire, England. He has written about his childhood and youth, including the time he served in the army in World War II, in '<a href="/book/the-day-gone-by/">The Day Gone By</a>'.</p>
+		</div>
 	</div>
 
 	<div class="goto contact">

@@ -14,10 +14,18 @@ short: "Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by r
   
 
 _“All the world will be your enemy, Prince with a Thousand Enemies, and whenever they catch you, they will kill you. But first they must catch you, digger, listener, runner, prince with the swift warning. Be cunning and full of tricks and your people shall never be destroyed.”_  
-&nbsp;&nbsp;&nbsp;&nbsp;Watership Down
+&nbsp;&nbsp;&nbsp;&nbsp;&ndash; Watership Down
+
+  
+
+
 
 ---
 
+
+  
+
+  
 Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by reading the beloved classic children’s story. Richard Adams (1920–2016) grew up in Berkshire, England, the son of a country doctor. After an education at Oxford, he spent six years in the army and then went into the civil service. He wrote many novels and short stories, including Watership Down and Shardik.
 
 One of the most beloved novels of our time, __WATERSHIP DOWN__, first published in 1972, is an epic journey, a stirring tale of adventure, courage, and survival. 
@@ -29,10 +37,10 @@ A stirring epic of courage and survival against the odds it is both an exciting 
 ### Praise For Watership Down
 
 _It’s a thrilling tale, and everything from the voice work to the direction aid in its multi-layered impact._  
-&nbsp;&nbsp;&nbsp;&nbsp;Ben Travers, Watership Down, TV series, IndieWire, Dec 2018
+&nbsp;&nbsp;&nbsp;&nbsp;&ndash; Ben Travers, Watership Down, TV series, IndieWire, Dec 2018
 
 _As much about freedom, ethics, and human nature as it is about a bunch of bunnies looking for a warm hidey-hole and some mates, Watership Down will continue to make the transition from classroom desk to bedside table for many generations to come._  
-&nbsp;&nbsp;&nbsp;&nbsp;Paul Hughes
+&nbsp;&nbsp;&nbsp;&nbsp;&ndash; Paul Hughes
 
 ### Published around the world
 

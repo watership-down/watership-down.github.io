@@ -7,9 +7,11 @@ short: "Celebrating the Centenary of Richard Adams"
 ---
 
 ![The centenary of Richard Adams’ birth](/assets/img/posts/centenary2.png)
- 
+   
+  
+
 _“All the world will be your enemy, Prince with a Thousand Enemies, and whenever they catch you, they will kill you. But first they must catch you, digger, listener, runner, prince with the swift warning. Be cunning and full of tricks and your people shall never be destroyed.”_  
->- Watership Down
+    Watership Down
 
 ![Richard Adams](/assets/img/posts/centenary1.jpeg)
 
@@ -22,10 +24,10 @@ A stirring epic of courage and survival against the odds it is both an exciting 
 ### Praise For Watership Down
 
 _It’s a thrilling tale, and everything from the voice work to the direction aid in its multi-layered impact._  
-Ben Travers, Watership Down, TV series, IndieWire, Dec 2018
+    Ben Travers, Watership Down, TV series, IndieWire, Dec 2018
 
 _As much about freedom, ethics, and human nature as it is about a bunch of bunnies looking for a warm hidey-hole and some mates, Watership Down will continue to make the transition from classroom desk to bedside table for many generations to come._  
-Paul Hughes
+    Paul Hughes
 
 #### Published around the world
 

@@ -3,7 +3,7 @@ layout: post
 title: "‘Watership Down’ and the Crisis of Liberalism"
 image: "/assets/img/posts/richard-adams.jpg"
 date: 2019-10-23 15:29:00 +0100
-short: "The New York Times on the relevance of Watership Down in 2019"
+short: "The New York Times on the relevance of Watership Down in 2019."
 ---
 
 ![Richard Adams](/assets/img/posts/richard-adams.jpg)

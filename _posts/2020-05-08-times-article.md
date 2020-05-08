@@ -3,7 +3,7 @@ layout: post
 title: "From Homer to VE Day: Watership Down is many (cotton) tales in one"
 image: "/assets/img/posts/centenary3.jpeg"
 date: 2020-05-08 19:29:00 +0100
-short: "The Times on the enduring relevance and meaning of Watership Down"
+short: "The Times on the enduring relevance and meaning of Watership Down."
 ---
 
 ![Richard Adams](/assets/img/posts/centenary3.jpeg)
@@ -14,6 +14,6 @@ _The connection? Well, in his autobiography Adams revealed that he based the cha
 
 _..._
 
-[Richard Morrison](https://twitter.com/RichmoMusic?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) discusses the political relevance of Watership Down today, explores the virtues and fears of its heroes, and finds the optimism of the book's message.
+Celebrating the centenary of Richard Adams' birth, [Richard Morrison](https://twitter.com/RichmoMusic?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) discusses the enduring relevance and meaning of Watership Down.
 
 You can read the full article on the [Times website](https://www.thetimes.co.uk/article/be6d33f4-905c-11ea-a1ff-1dde97c98818) (paywall).

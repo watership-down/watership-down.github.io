@@ -25,9 +25,9 @@ _“All the world will be your enemy, Prince with a Thousand Enemies, and whenev
 
 Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by reading the beloved classic children’s story. Richard Adams (1920–2016) grew up in Berkshire, England, the son of a country doctor. After an education at Oxford, he spent six years in the army and then went into the civil service. He wrote many novels and short stories, including Watership Down and Shardik.
 
-One of the most beloved novels of our time, __WATERSHIP DOWN__, first published in 1972, is an epic journey, a stirring tale of adventure, courage, and survival. 
+One of the most beloved novels of our time, __WATERSHIP DOWN__, first published in 1972, is a stirring tale of adventure, courage, and survival.
 
-A tale of courage and survival against the odds it is both an exciting adventure story and an involving allegory about freedom, ethics, and human nature, it has delighted generations with its unique and charming world, winning many awards and being adapted to film, television, and theater.
+Telling the story of an epic journey made against the odds, __WATERSHIP DOWN__ is at once a simple childrens' tale about rabbits, and an allegory addressing the vast subjects of freedom, subjection, authority, leadership, power and environmentalism. It is utterly original and unique, has won many awards and been adapted for television, radio, film and theatre numerous times.
 
 <br/>
 
@@ -73,7 +73,7 @@ Polish: _Wydawnictwo Literackie_
 Romanian: _Editura Art_  
 Russian: _Azbooka Atticus_  
 Slovak: _Slovart_  
-Spanish: _Seix Barrai_  
+Spanish: _Seix Barral_  
 Swedish: _Albert Bonniers_  
 Turkish: _Epsilon Yayincilik Hizmetleri Tic. Ve San Ltd_  
 Ukranian: _Ridna Mova (Machaon)_  

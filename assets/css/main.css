@@ -1539,11 +1539,11 @@ nav.site-nav {
           margin: 5px 0;
           font-size: 0.9em; }
       nav.site-nav .links.open {
-        -moz-transform: translateY(172px);
-        -o-transform: translateY(172px);
-        -ms-transform: translateY(172px);
-        -webkit-transform: translateY(172px);
-        transform: translateY(172px); }
+        -moz-transform: translateY(232px);
+        -o-transform: translateY(232px);
+        -ms-transform: translateY(232px);
+        -webkit-transform: translateY(232px);
+        transform: translateY(232px); }
     nav.site-nav .menu-btn {
       display: block; }
     nav.site-nav .menu-btn:before, nav.site-nav .menu-btn:after {

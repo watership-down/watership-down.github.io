@@ -27,7 +27,7 @@ Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by reading t
 
 One of the most beloved novels of our time, __WATERSHIP DOWN__, first published in 1972, is an epic journey, a stirring tale of adventure, courage, and survival. 
 
-A stirring epic of courage and survival against the odds it is both an exciting adventure story and an involving allegory about freedom, ethics, and human nature, it has delighted generations with its unique and charming world, winning many awards and being adapted to film, television, and theater.
+A tale of courage and survival against the odds it is both an exciting adventure story and an involving allegory about freedom, ethics, and human nature, it has delighted generations with its unique and charming world, winning many awards and being adapted to film, television, and theater.
 
 <br/>
 

@@ -7,6 +7,8 @@ short: "Variety magazine covers a recent win in the ongoing fight to protect the
 ---
 
 ![Richard Adams](/assets/img/posts/watership-tv-3.jpg)
+
+<br/>
    
 _A court in England has ruled in favor of Watership Down Enterprises, the estate and family of author Richard Adams, in an action brought against producer Martin Rosen, who wrote and directed the 1978 animated film of Adams’ novel “Watership Down.”_
 

@@ -3,10 +3,12 @@ layout: post
 title: "Watership Down author's estate wins back all rights to classic novel"
 image: "/assets/img/posts/richard-adams.jpg"
 date: 2020-06-07 10:01:00 +0100
-short: "In a case at London’s high court, Richard Adams’ estate won a longstanding claim against Martin Rosen, director of the 1978 animation"
+short: "In a case at London’s high court, Richard Adams’ estate won a longstanding claim against Martin Rosen, director of the 1978 animation."
 ---
 
 ![Richard Adams](/assets/img/posts/richard-adams.jpg)
+
+<br/>
    
 _The estate of Watership Down author Richard Adams has won back all of the rights to the late author’s classic novel about anthropomorphised rabbits, in a high court ruling against the director of the famed animated adaptation._
 

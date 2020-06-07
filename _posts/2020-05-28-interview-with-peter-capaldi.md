@@ -7,6 +7,8 @@ short: "To celebrate the centenary of Richard Adams's birth, watch the daughter 
 ---
 
 ![Richard Adams](/assets/img/posts/capaldi2.png)
+
+<br/>
    
 To celebrate the centenary of Richard Adams's birth, watch the daughter of Richard Adams, Juliet Johnson, and actor and narrator of Watership Down, Peter Capaldi discuss one of the most beloved novels of our time.
 

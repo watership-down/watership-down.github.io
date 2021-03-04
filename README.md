@@ -31,6 +31,15 @@ Richard Adams lived in Hampshire, England. He has written about his childhood an
 
 ## Contributing
 
+### Deployments
+
 The site is deployed with github pages. All commits are automatically deployed.
 
-PRs are validated with Circle CI - don't just merged into master!
+PRs are validated with Circle CI, so open PRs, don't just merge into master!
+
+### Content
+
+Creating a new blog:
+- Add a blog post -> `./_posts`. Use the existing posts as examples.
+- Add image assets -> `./assets/img/posts`. Make sure to _minify_ them before committing, this repo doesn't use Git LFS.
+- 

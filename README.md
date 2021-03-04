@@ -21,3 +21,9 @@ Dependencies:
 
 `npm run build` builds the website statically
 `npm run watch` rebuild the website whenever you make changes
+
+## Contributing
+
+The site is deployed with github pages. All commits are automatically deployed.
+
+PRs are validated with Circle CI - don't just merged into master!

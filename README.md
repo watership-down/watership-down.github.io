@@ -16,11 +16,12 @@ Richard Adams lived in Hampshire, England. He has written about his childhood an
 
 ## Running the site
 
-Dependencies:
+### Dependencies
 - Jekyll (which requires Ruby)
 
-`npm run build` builds the website statically
-`npm run watch` rebuild the website whenever you make changes
+### Scripts
+- `npm run build` builds the website statically
+- `npm run watch` rebuild the website whenever you make changes
 
 ## Contributing
 

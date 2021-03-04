@@ -4,6 +4,12 @@ Watership Down Enterprises Marketing Website
 
 <https://watership-down.com/>
 
+## Watership Down
+
+A phenomenal worldwide bestseller for over forty years, Richard Adams’ spellbinding classic [Watership Down](https://watership-down.com/book/watership-down/) is one of the best-loved novels of all time.
+
+Set in the beautiful English countryside of the Berkshire Downs, a once idyllic rural landscape, this stirring tale of adventure, courage, and survival follows a band of very special rabbits fleeing the destruction of their home by a developer. Led by a stout-hearted pair of brothers, they leave the safety of Sandleford Warren in search of a safe haven and a mysterious promised land, skirting danger at every turn.
+
 ## Richard Adams
 
 Richard George Adams (9th May, 1920 – 24th December, 2016) was an English novelist best known as the author of Watership Down.

@@ -5,7 +5,11 @@ jobs:
       - image: circleci/ruby:2.4.3-node-browsers
     steps:
       - checkout
-      - run: npm install
+      - run:
+          name: install deps
+          command: |
+            gem update --system
+            gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
       - deploy:

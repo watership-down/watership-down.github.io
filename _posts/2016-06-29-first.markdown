@@ -3,6 +3,6 @@ layout: post
 title:  "New website!"
 date:   2016-07-13 12:00:00 +0100
 categories: demo
-short: "We are pleased to reveal our new website, [watership-down.com](https://www.watership-down.com/)!"
+short: "We are pleased to reveal our brand new website, [watership-down.com](https://www.watership-down.com/)!"
 ---
-We are pleased to reveal our new website, [watership-down.com](https://www.watership-down.com/)!
+We are pleased to reveal our brand new website, [watership-down.com](https://www.watership-down.com/)!

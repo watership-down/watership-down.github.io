@@ -23,7 +23,19 @@ Richard Adams lived in Hampshire, England. He has written about his childhood an
 ## Running the site
 
 ### Dependencies
-- Jekyll (which requires Ruby)
+
+#### Ruby
+
+If you haven't used ruby before on your machine:
+
+1. `brew install ruby`
+2. `echo 'export GEM_HOME="$HOME/.gem"' >> ~/.zshrc`
+3. Quit and restart terminal
+4. Check your version `ruby -v`
+
+#### Jekyll
+
+1. `gem install bundler jekyll`
 
 ### Scripts
 - `npm run build` builds the website statically

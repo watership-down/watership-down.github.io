@@ -1,10 +1,14 @@
 version: 2
+orbs:
+  ruby: circleci/ruby@1.1.2
 jobs:
   deploy:
     docker:
       - image: circleci/ruby:2.4.3-node-browsers
     steps:
       - checkout
+      - ruby/install:
+          version: '2.7'
       - run:
           name: install deps
           command: |
@@ -13,7 +17,6 @@ jobs:
             gem install bundler
             gem update --system
             gem install bundler
-
       - run: bundle install
       - run: bundle exec jekyll build
       - deploy:

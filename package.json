@@ -7,7 +7,8 @@
     "kill": "pkill node && pkill jekyll",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve"
+    "serve": "bundle exec jekyll serve",
+    "watch": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",

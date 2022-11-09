@@ -1,11 +1,23 @@
-version: 2
+version: 2.1
+orbs:
+  ruby: circleci/ruby@1.1.2
 jobs:
   deploy:
     docker:
       - image: circleci/ruby:2.4.3-node-browsers
     steps:
       - checkout
-      - run: npm install
+      - run: sudo apt-get update
+      - ruby/install:
+          version: '2.7.1'
+      - run:
+          name: install deps
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
+            gem update --system
+            gem install bundler
       - run: bundle install
       - run: bundle exec jekyll build
       - deploy:

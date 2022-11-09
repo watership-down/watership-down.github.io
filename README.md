@@ -23,11 +23,30 @@ Richard Adams lived in Hampshire, England. He has written about his childhood an
 ## Running the site
 
 ### Dependencies
-- Jekyll (which requires Ruby)
+
+#### Ruby
+
+We need rube v 2.7. 3 crashes
+
+1. `brew install ruby@2.7` (if you haven't installed homebrew: https://brew.sh/)
+2. `echo 'PATH="/usr/local/opt/ruby@2.7/bin:$PATH"`
+3. `echo 'export GEM_HOME="$HOME/.gem"' >> ~/.zshrc`
+4. Quit and restart terminal
+5. Check your version `ruby -v`
+
+#### Jekyll
+
+1. `gem install bundler jekyll`
+
+#### Gems
+
+1. `cd this/repo/path`
+2. `bundle install`
 
 ### Scripts
 - `npm run build` builds the website statically
-- `npm run watch` rebuild the website whenever you make changes
+- `npm run serve` serve the site - `http://127.0.0.1:4000/`
+- `npm run watch` serve but it rebuilds the website whenever you make changes
 
 ## Contributing
 

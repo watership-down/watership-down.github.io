@@ -9,7 +9,7 @@ short: "In a case at London’s high court, Richard Adams’ estate won a longst
 ![Richard Adams](/assets/img/posts/richard-adams.jpg)
 
 <br/>
-   
+
 _The estate of Watership Down author Richard Adams has won back all of the rights to the late author’s classic novel about anthropomorphised rabbits, in a high court ruling against the director of the famed animated adaptation._
 
 _The high court in London ruled on 27 May that Martin Rosen, the US director of the 1978 adaptation of Adams’s novel, had wrongly claimed that he owned all rights to the book, in which a group of rabbits fight to survive the destruction of their warren._

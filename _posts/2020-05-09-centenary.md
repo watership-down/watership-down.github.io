@@ -7,7 +7,7 @@ short: "Celebrate the centenary of Richard Adams’ birth, on May 9th, 2020 by r
 ---
 
 ![The centenary of Richard Adams’ birth](/assets/img/posts/centenary2.png)
-   
+  
   
 
 _“All the world will be your enemy, Prince with a Thousand Enemies, and whenever they catch you, they will kill you. But first they must catch you, digger, listener, runner, prince with the swift warning. Be cunning and full of tricks and your people shall never be destroyed.”_  

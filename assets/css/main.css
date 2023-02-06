@@ -1617,7 +1617,7 @@ main {
       left: 280px; } }
   @media (min-width: 767px) {
     main {
-      width: calc(100vw - 220px) } }
+      width: calc(100vw - 280px) } }
   @media (min-width: 0) and (max-width: 767px) {
     main {
       left: 0;
@@ -1736,12 +1736,15 @@ main {
 
 footer {
   position: relative;
-  bottom: -30px;
-  padding: 0 1em;
+  padding: 15px 30px;
   text-align: center; }
 footer span {
   font-family: Vollkorn, sans-serif;
 }
+@media (min-width: 767px) {
+  footer {
+    width: calc(100vw - 280px);
+    left: 280px; } }
 
 .review {
   width: 50%;

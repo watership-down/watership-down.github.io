@@ -1597,7 +1597,8 @@ nav.site-nav.fake {
     opacity: 1; }
 
 main {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   background: url("/assets/img/paper_fibers.png");
   top: 0;
   left: 220px;
@@ -1614,6 +1615,9 @@ main {
     main {
       font-size: 20px;
       left: 280px; } }
+  @media (min-width: 767px) {
+    main {
+      width: calc(100vw - 220px) } }
   @media (min-width: 0) and (max-width: 767px) {
     main {
       left: 0;
@@ -1729,6 +1733,15 @@ main {
       main .slides .info .next {
         content: '\25B6';
         right: 0; }
+
+footer {
+  position: relative;
+  bottom: -30px;
+  padding: 0 1em;
+  text-align: center; }
+footer span {
+  font-family: Vollkorn, sans-serif;
+}
 
 .review {
   width: 50%;

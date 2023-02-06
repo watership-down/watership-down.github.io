@@ -7,5 +7,6 @@ import "./lib/article";
 import "./lib/book";
 import "./lib/books";
 import "./lib/header";
+import "./lib/copyright";
 
 import "./network/codogo-fetch";

@@ -12275,12 +12275,14 @@ $(function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function($) {
 
-
-document.body.onload = setCopy;
-function setCopy() {
-    document.getElementById("copyright").innerHTML = "Copyright &copy; Watership Down Enterprises " + new Date().getFullYear();
-}
+$(function () {
+    if ($("#copyright").length > 0) {
+        $("#copyright").text("Copyright &copy; Watership Down Enterprises " + new Date().getFullYear());
+    }
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
 /* 11 */

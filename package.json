@@ -20,8 +20,14 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://watership-down.com",
+  "husky": {
+    "hooks": {
+      "pre-commit": "build-webpack"
+    }
+  },
   "dependencies": {
     "codogo-default-scss": "^2.0.1",
+    "husky": "^8.0.3",
     "jquery": "3.5.0",
     "jquery-bridget": "^2.0.1",
     "masonry-layout": "^4.1.1",

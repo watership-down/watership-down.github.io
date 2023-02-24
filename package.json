@@ -44,6 +44,6 @@
     "react": "^15.4.2",
     "react-addons-update": "^15.4.2",
     "react-dom": "^15.4.2",
-    "webpack": "^2.3.3"
+    "webpack": "^5.75.0"
   }
 }

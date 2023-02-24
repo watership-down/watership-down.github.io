@@ -1,5 +1,5 @@
 $(function() {
     if ($("#copyright").length > 0) {
-        $("#copyright").text(`Copyright &copy; Watership Down Enterprises ${new Date().getFullYear()}`);
+        $("#copyright").text(`Copyright © Watership Down Enterprises ${new Date().getFullYear()}`);
     }
 });

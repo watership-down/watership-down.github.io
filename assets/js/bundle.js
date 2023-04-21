@@ -12279,7 +12279,7 @@ $(function () {
 
 $(function () {
     if ($("#copyright").length > 0) {
-        $("#copyright").text("Copyright &copy; Watership Down Enterprises " + new Date().getFullYear());
+        $("#copyright").text("Copyright \xA9 Watership Down Enterprises " + new Date().getFullYear());
     }
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))

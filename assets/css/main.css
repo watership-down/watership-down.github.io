@@ -1885,8 +1885,7 @@ article ul {
   .buy select:focus {
     outline: none; }
 .buy span {
-  display: none;
-  white-space: nowrap; }
+  display: none; }
   .buy span.usa {
     display: inline; }
 

@@ -12,4 +12,4 @@ short: "The first ever full adaption was recently released across the UK and US"
   
 We are delighted to see the first ever full adaptation of 'Watership Down' as a graphic novel recently released in the US and UK. The US edition was published by TenSpeed Press on 17th October and the UK edition by Puffin/Penguin on the 19th October 2023.
 
-[Buy Now](/books/wd-graphic-novel/)
+[Buy Now](/book/wd-graphic-novel/)
